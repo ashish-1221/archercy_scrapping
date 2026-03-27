@@ -1,0 +1,612 @@
+[
+  {
+    "pageInfo": {
+      "totalResults": 512,
+      "resultsPerPage": 500,
+      "page": 1
+    },
+    "items": [
+      {
+        "Code": "CW",
+        "Matches": [
+          {
+            "Phase": 48,
+            "Cat": "CW",
+            "MatchMode": 0,
+            "TimeStamp": 1691331004,
+            "NumEnds": 5,
+            "NumArrowsEnd": 3,
+            "NumArrowsTB": 1,
+            "IsLive": false,
+            "Competitor1": {
+              "MatchNo": 232,
+              "QualRank": 23,
+              "Arr": "",
+              "ArrTB": "",
+              "Score": 0,
+              "SP": "",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": true,
+              "Athlete": {
+                "Id": "43101",
+                "FName": "Jankowska",
+                "GName": "Sandra",
+                "WNameOrd": false,
+                "NOC": "POL"
+              }
+            },
+            "Competitor2": {
+              "MatchNo": 233,
+              "QualRank": 0,
+              "Arr": "",
+              "ArrTB": "",
+              "Score": 0,
+              "SP": "",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "0",
+                "FName": null,
+                "GName": null,
+                "WNameOrd": false,
+                "NOC": null
+              }
+            }
+          },
+          {
+            "Phase": 48,
+            "Cat": "CW",
+            "MatchMode": 0,
+            "TimeStamp": 1691331004,
+            "NumEnds": 5,
+            "NumArrowsEnd": 3,
+            "NumArrowsTB": 1,
+            "IsLive": false,
+            "Competitor1": {
+              "MatchNo": 234,
+              "QualRank": 71,
+              "Arr": "9,9,7,9,9,6,10,8,8,8,8,7,9,9,9",
+              "ArrTB": "",
+              "Score": 125,
+              "SP": "25|24|26|23|27",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "41983",
+                "FName": "Yuksel",
+                "GName": "Irmak",
+                "WNameOrd": false,
+                "NOC": "TUR"
+              }
+            },
+            "Competitor2": {
+              "MatchNo": 235,
+              "QualRank": 42,
+              "Arr": "9,9,8,X,9,9,X,8,8,10,9,8,10,9,8",
+              "ArrTB": "",
+              "Score": 134,
+              "SP": "26|28|26|27|27",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": true,
+              "Athlete": {
+                "Id": "45120",
+                "FName": "Snak Nisi",
+                "GName": "Eiry Cristina",
+                "WNameOrd": false,
+                "NOC": "BRA"
+              }
+            }
+          },
+          {
+            "Phase": 48,
+            "Cat": "CW",
+            "MatchMode": 0,
+            "TimeStamp": 1691331004,
+            "NumEnds": 5,
+            "NumArrowsEnd": 3,
+            "NumArrowsTB": 1,
+            "IsLive": false,
+            "Competitor1": {
+              "MatchNo": 236,
+              "QualRank": 55,
+              "Arr": "9,8,8,10,9,9,10,9,6,9,9,9,9,9,7",
+              "ArrTB": "",
+              "Score": 130,
+              "SP": "25|28|25|27|25",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": true,
+              "Athlete": {
+                "Id": "27776",
+                "FName": "Nisula",
+                "GName": "Satu",
+                "WNameOrd": false,
+                "NOC": "FIN"
+              }
+            },
+            "Competitor2": {
+              "MatchNo": 237,
+              "QualRank": 58,
+              "Arr": "10,9,9,9,8,M,10,6,6,9,9,9,10,9,8",
+              "ArrTB": "",
+              "Score": 121,
+              "SP": "28|17|22|27|27",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "42188",
+                "FName": "Ringström",
+                "GName": "Jaqueline",
+                "WNameOrd": false,
+                "NOC": "SWE"
+              }
+            }
+          },
+          {
+            "Phase": 48,
+            "Cat": "CW",
+            "MatchMode": 0,
+            "TimeStamp": 1691331004,
+            "NumEnds": 5,
+            "NumArrowsEnd": 3,
+            "NumArrowsTB": 1,
+            "IsLive": false,
+            "Competitor1": {
+              "MatchNo": 238,
+              "QualRank": 0,
+              "Arr": "",
+              "ArrTB": "",
+              "Score": 0,
+              "SP": "",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "0",
+                "FName": null,
+                "GName": null,
+                "WNameOrd": false,
+                "NOC": null
+              }
+            },
+            "Competitor2": {
+              "MatchNo": 239,
+              "QualRank": 10,
+              "Arr": "",
+              "ArrTB": "",
+              "Score": 0,
+              "SP": "",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": true,
+              "Athlete": {
+                "Id": "9298",
+                "FName": "Klein",
+                "GName": "Mariya",
+                "WNameOrd": false,
+                "NOC": "LUX"
+              }
+            }
+          },
+          {
+            "Phase": 48,
+            "Cat": "CW",
+            "MatchMode": 0,
+            "TimeStamp": 1691331004,
+            "NumEnds": 5,
+            "NumArrowsEnd": 3,
+            "NumArrowsTB": 1,
+            "IsLive": false,
+            "Competitor1": {
+              "MatchNo": 240,
+              "QualRank": 15,
+              "Arr": "",
+              "ArrTB": "",
+              "Score": 0,
+              "SP": "",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": true,
+              "Athlete": {
+                "Id": "20116",
+                "FName": "Oh",
+                "GName": "Yoohyun",
+                "WNameOrd": true,
+                "NOC": "KOR"
+              }
+            },
+            "Competitor2": {
+              "MatchNo": 241,
+              "QualRank": 0,
+              "Arr": "",
+              "ArrTB": "",
+              "Score": 0,
+              "SP": "",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "0",
+                "FName": null,
+                "GName": null,
+                "WNameOrd": false,
+                "NOC": null
+              }
+            }
+          },
+          {
+            "Phase": 48,
+            "Cat": "CW",
+            "MatchMode": 0,
+            "TimeStamp": 1691331004,
+            "NumEnds": 5,
+            "NumArrowsEnd": 3,
+            "NumArrowsTB": 1,
+            "IsLive": false,
+            "Competitor1": {
+              "MatchNo": 242,
+              "QualRank": 63,
+              "Arr": "10,8,8,10,9,9,9,M,M,X,10,10,10,10,7",
+              "ArrTB": "",
+              "Score": 120,
+              "SP": "26|28|9|30|27",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "15949",
+                "FName": "Ong",
+                "GName": "Madeleine Xue Li",
+                "WNameOrd": true,
+                "NOC": "SGP"
+              }
+            },
+            "Competitor2": {
+              "MatchNo": 243,
+              "QualRank": 50,
+              "Arr": "10,9,8,9,9,8,8,8,7,X,9,9,10,8,7",
+              "ArrTB": "",
+              "Score": 129,
+              "SP": "27|26|23|28|25",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": true,
+              "Athlete": {
+                "Id": "20137",
+                "FName": "Renaudin",
+                "GName": "Tiphaine",
+                "WNameOrd": false,
+                "NOC": "FRA"
+              }
+            }
+          },
+          {
+            "Phase": 48,
+            "Cat": "CW",
+            "MatchMode": 0,
+            "TimeStamp": 1691331004,
+            "NumEnds": 5,
+            "NumArrowsEnd": 3,
+            "NumArrowsTB": 1,
+            "IsLive": false,
+            "Competitor1": {
+              "MatchNo": 244,
+              "QualRank": 47,
+              "Arr": "10,10,8,10,9,9,X,8,8,X,10,9,X,9,8",
+              "ArrTB": "",
+              "Score": 138,
+              "SP": "28|28|26|29|27",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": true,
+              "Athlete": {
+                "Id": "20412",
+                "FName": "Corado",
+                "GName": "Paola",
+                "WNameOrd": false,
+                "NOC": "ESA"
+              }
+            },
+            "Competitor2": {
+              "MatchNo": 245,
+              "QualRank": 66,
+              "Arr": "X,8,7,10,9,9,10,9,9,9,9,8,10,7,7",
+              "ArrTB": "",
+              "Score": 131,
+              "SP": "25|28|28|26|24",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "18713",
+                "FName": "Ronacher",
+                "GName": "Ingrid",
+                "WNameOrd": false,
+                "NOC": "AUT"
+              }
+            }
+          },
+          {
+            "Phase": 48,
+            "Cat": "CW",
+            "MatchMode": 0,
+            "TimeStamp": 1691331004,
+            "NumEnds": 5,
+            "NumArrowsEnd": 3,
+            "NumArrowsTB": 1,
+            "IsLive": false,
+            "Competitor1": {
+              "MatchNo": 246,
+              "QualRank": 0,
+              "Arr": "",
+              "ArrTB": "",
+              "Score": 0,
+              "SP": "",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "0",
+                "FName": null,
+                "GName": null,
+                "WNameOrd": false,
+                "NOC": null
+              }
+            },
+            "Competitor2": {
+              "MatchNo": 247,
+              "QualRank": 18,
+              "Arr": "",
+              "ArrTB": "",
+              "Score": 0,
+              "SP": "",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": true,
+              "Athlete": {
+                "Id": "23751",
+                "FName": "Wang",
+                "GName": "Lu-Yun",
+                "WNameOrd": true,
+                "NOC": "TPE"
+              }
+            }
+          },
+          {
+            "Phase": 48,
+            "Cat": "CW",
+            "MatchMode": 0,
+            "TimeStamp": 1691331004,
+            "NumEnds": 5,
+            "NumArrowsEnd": 3,
+            "NumArrowsTB": 1,
+            "IsLive": false,
+            "Competitor1": {
+              "MatchNo": 248,
+              "QualRank": 31,
+              "Arr": "9,9,8,10,9,9,9,8,6,9,9,8,X,10,9",
+              "ArrTB": "",
+              "Score": 132,
+              "SP": "26|28|23|26|29",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": true,
+              "Athlete": {
+                "Id": "17449",
+                "FName": "Zhexenbinova",
+                "GName": "Adel",
+                "WNameOrd": false,
+                "NOC": "KAZ"
+              }
+            },
+            "Competitor2": {
+              "MatchNo": 249,
+              "QualRank": 82,
+              "Arr": "10,8,7,9,8,8,10,7,M,9,8,8,10,9,8",
+              "ArrTB": "",
+              "Score": 119,
+              "SP": "25|25|17|25|27",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "32356",
+                "FName": "Wong",
+                "GName": "Yuk Sheung",
+                "WNameOrd": true,
+                "NOC": "HKG"
+              }
+            }
+          },
+          {
+            "Phase": 48,
+            "Cat": "CW",
+            "MatchMode": 0,
+            "TimeStamp": 1691331004,
+            "NumEnds": 5,
+            "NumArrowsEnd": 3,
+            "NumArrowsTB": 1,
+            "IsLive": false,
+            "Competitor1": {
+              "MatchNo": 250,
+              "QualRank": 79,
+              "Arr": "10,8,8,9,9,9,8,7,M,10,8,8,9,9,9",
+              "ArrTB": "",
+              "Score": 121,
+              "SP": "26|27|15|26|27",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "27252",
+                "FName": "De Sousa",
+                "GName": "Giselle",
+                "WNameOrd": false,
+                "NOC": "POR"
+              }
+            },
+            "Competitor2": {
+              "MatchNo": 251,
+              "QualRank": 34,
+              "Arr": "9,9,8,9,9,7,9,8,7,9,8,8,X,10,8",
+              "ArrTB": "",
+              "Score": 128,
+              "SP": "26|25|24|25|28",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": true,
+              "Athlete": {
+                "Id": "40552",
+                "FName": "Arreola",
+                "GName": "Liko",
+                "WNameOrd": false,
+                "NOC": "USA"
+              }
+            }
+          },
+          {
+            "Phase": 48,
+            "Cat": "CW",
+            "MatchMode": 0,
+            "TimeStamp": 1691331004,
+            "NumEnds": 5,
+            "NumArrowsEnd": 3,
+            "NumArrowsTB": 1,
+            "IsLive": false,
+            "Competitor1": {
+              "MatchNo": 252,
+              "QualRank": 0,
+              "Arr": "",
+              "ArrTB": "",
+              "Score": 0,
+              "SP": "",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "0",
+                "FName": null,
+                "GName": null,
+                "WNameOrd": false,
+                "NOC": null
+              }
+            },
+            "Competitor2": {
+              "MatchNo": 253,
+              "QualRank": 0,
+              "Arr": "",
+              "ArrTB": "",
+              "Score": 0,
+              "SP": "",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "0",
+                "FName": null,
+                "GName": null,
+                "WNameOrd": false,
+                "NOC": null
+              }
+            }
+          },
+          {
+            "Phase": 48,
+            "Cat": "CW",
+            "MatchMode": 0,
+            "TimeStamp": 1691331004,
+            "NumEnds": 5,
+            "NumArrowsEnd": 3,
+            "NumArrowsTB": 1,
+            "IsLive": false,
+            "Competitor1": {
+              "MatchNo": 254,
+              "QualRank": 0,
+              "Arr": "",
+              "ArrTB": "",
+              "Score": 0,
+              "SP": "",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": false,
+              "Athlete": {
+                "Id": "0",
+                "FName": null,
+                "GName": null,
+                "WNameOrd": false,
+                "NOC": null
+              }
+            },
+            "Competitor2": {
+              "MatchNo": 255,
+              "QualRank": 2,
+              "Arr": "",
+              "ArrTB": "",
+              "Score": 0,
+              "SP": "",
+              "TB": "",
+              "Bye": false,
+              "Irm": "",
+              "WinLose": true,
+              "Athlete": {
+                "Id": "11348",
+                "FName": "Vennam",
+                "GName": "Jyothi Surekha",
+                "WNameOrd": false,
+                "NOC": "IND"
+              }
+            }
+          }
+        ],
+        "Format": [
+          {
+            "PhTypeId": "1",
+            "FmtId": "3",
+            "FmtSubId": "3"
+          },
+          {
+            "PhTypeId": "2",
+            "FmtId": "6",
+            "FmtSubId": "9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pageInfo": {
+      "totalResults": 512,
+      "resultsPerPage": 500,
+      "page": 2
+    },
+    "items": []
+  }
+]

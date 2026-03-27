@@ -1,0 +1,11 @@
+Code,GoldHeader,XnineHeader,Rnk,Score,Gold,Xnine,_group,Athlete.Id,Athlete.FName,Athlete.GName,Athlete.WNameOrd,Athlete.NOC,PhTypeId,FmtId,FmtSubId
+RM,10+X,X,4.0,681.0,39.0,14.0,Results,22125,Bommadevara,Dhiraj,False,IND,,,
+RM,10+X,X,14.0,674.0,31.0,9.0,Results,3829,Rai,Tarundeep,False,IND,,,
+RM,10+X,X,39.0,658.0,25.0,8.0,Results,5665,Jadhav,Pravin,False,IND,,,
+RM,10+X,X,,,,,Format,,,,,,1,1,1
+RM,10+X,X,,,,,Format,,,,,,2,5,8
+RW,10+X,X,11.0,666.0,30.0,9.0,Results,17262,Bhakat,Ankita,False,IND,,,
+RW,10+X,X,22.0,659.0,25.0,6.0,Results,45025,Kaur,Bhajan,False,IND,,,
+RW,10+X,X,23.0,658.0,28.0,6.0,Results,8734,Kumari,Deepika,False,IND,,,
+RW,10+X,X,,,,,Format,,,,,,1,1,1
+RW,10+X,X,,,,,Format,,,,,,2,5,8
