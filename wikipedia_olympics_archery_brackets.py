@@ -12,7 +12,7 @@ from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from playwright.sync_api import sync_playwright
 
 
-WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/Archery_at_the_2024_Summer_Olympics"
+WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/Archery_at_the_2024_Summer_Olympics_%E2%80%93_Women%27s_team"
 OUTPUT_COLUMNS = [
     "championship",
     "round_name",
