@@ -102,7 +102,7 @@ async def extract_elimination_data(
 
     # ── 2. Collect match columns ──────────────────────────────────────────────
     # The bracket container is the second div.m-5.d-flex.gap-4
-    bracket_containers = await page.query_selector_all("div.m-5.d-flex.gap-4")
+    bracket_containers = await page.query_selector_all("div.m-4.flex.gap-4")
 
     for bracket in bracket_containers:
         # Each direct child is a column (position-relative div)
@@ -271,6 +271,26 @@ async def get_event_cards(page) -> list[dict]:
 
     return results
 
+from urllib.parse import urlparse, urlunparse
+
+def change_to_elimination(current_url: str) -> str:
+    parsed = urlparse(current_url)
+
+    # replace the path
+    new_path = parsed.path.replace("/leaderboard", "/elimination")
+
+    # rebuild url
+    new_url = urlunparse((
+        parsed.scheme,
+        parsed.netloc,
+        new_path,
+        parsed.params,
+        parsed.query,
+        parsed.fragment
+    ))
+
+    return new_url
+
 
 async def click_view_fixtures(page, card_index: int) -> bool:
     await page.wait_for_selector(".styles_cardMainContainer__rQzdE", timeout=15000)
@@ -281,6 +301,7 @@ async def click_view_fixtures(page, card_index: int) -> bool:
 
     card = cards[card_index]
     buttons = await card.query_selector_all("button")
+
     fixture_btn = None
     for btn in buttons:
         if "fixture" in (await safe_text(btn)).lower():
@@ -291,21 +312,34 @@ async def click_view_fixtures(page, card_index: int) -> bool:
         return False
 
     current_url = page.url
+
     await fixture_btn.scroll_into_view_if_needed()
     await fixture_btn.click()
 
     try:
+        # wait for leaderboard navigation
         await page.wait_for_function(
             f"() => window.location.href !== '{current_url}'",
             timeout=15000,
         )
-        await page.wait_for_load_state("networkidle", timeout=15000)
-        await page.wait_for_timeout(1500)
-        print(f"    ✔ Navigated → {page.url}")
-        return True
-    except PWTimeout:
-        return page.url != current_url
 
+        await page.wait_for_load_state("networkidle", timeout=15000)
+
+        leaderboard_url = page.url
+        print(f"    ✔ Navigated → {leaderboard_url}")
+
+        # convert leaderboard -> elimination
+        elimination_url = leaderboard_url.replace("/leaderboard", "/elimination")
+
+        # navigate to elimination page
+        await page.goto(elimination_url, wait_until="networkidle")
+
+        print(f"    ✔ Switched → {elimination_url}")
+
+        return True
+
+    except PWTimeout:
+        return False
 
 async def click_elimination_tab(page) -> bool:
     """
@@ -383,9 +417,6 @@ async def main():
 
             print(f"── [{card_index:02d}] {event_name}")
 
-            html = await page.content()
-            with open(f"default_page{card_index}.html", "w", encoding="utf-8") as f:
-                f.write(html)
 
             # Always go back — fixture URLs share base path as prefix so
             # simple `in` check fails. Unconditional goto is the safe fix.
@@ -400,6 +431,10 @@ async def main():
                 continue
 
             await click_elimination_tab(page)
+
+            html = await page.content()
+            with open(f"debug_event_{card_index:02d}.html", "w", encoding="utf-8") as f:
+                f.write(html)
 
             rows = await extract_elimination_data(page, CHAMPIONSHIP_NAME, event_name)
             print(f"     Extracted {len(rows)} match rows\n")
