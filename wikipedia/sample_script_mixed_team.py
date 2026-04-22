@@ -24,6 +24,10 @@ def clean_text(cell):
     return " ".join(cell.get_text(" ", strip=True).split())
 
 
+def normalize_country(country):
+    return re.sub(r'\s*\([A-Za-z0-9]{3}\)$', '', country).strip()
+
+
 def render_table_grid(table):
     rows = table.find_all("tr")
     pending = {}
@@ -123,6 +127,9 @@ def use_last_score_cell(soup):
 
 
 def explode_match_rows(matches):
+    """Split each mixed team match into individual athlete rows (male + female).
+    If the two teams have different squad sizes (e.g. due to reserve archers),
+    the shorter list is padded with empty strings so we never crash."""
     exploded = []
 
     for match in matches:
@@ -130,15 +137,17 @@ def explode_match_rows(matches):
         player_b_members = match["player_b"].split(" / ")
         winner_members = match["winner"].split(" / ") if match["winner"] else []
 
-        row_count = max(len(player_a_members), len(player_b_members), len(winner_members) or 0)
+        row_count = max(len(player_a_members), len(player_b_members))
         if row_count == 0:
             continue
 
-        if len(player_a_members) != row_count or len(player_b_members) != row_count:
-            raise ValueError(f"Mismatched team sizes in match: {match}")
-
-        if winner_members and len(winner_members) != row_count:
-            raise ValueError(f"Mismatched winner team size in match: {match}")
+        # Pad shorter lists with empty strings so indexing never raises
+        while len(player_a_members) < row_count:
+            player_a_members.append("")
+        while len(player_b_members) < row_count:
+            player_b_members.append("")
+        while winner_members and len(winner_members) < row_count:
+            winner_members.append("")
 
         for idx in range(row_count):
             exploded.append({
@@ -157,40 +166,84 @@ def explode_match_rows(matches):
 def extract_team_map(soup):
     ranking_round = soup.find(id="Ranking_round") or soup.find(id="Qualification_round")
     if not ranking_round:
+        for h in soup.find_all(["h2", "h3"]):
+            if "qualification" in h.get_text(strip=True).lower() or "ranking" in h.get_text(strip=True).lower():
+                ranking_round = h
+                break
+
+    if not ranking_round:
         raise ValueError("Ranking or qualification round section not found")
 
-    ranking_heading = ranking_round.find_parent("div", class_="mw-heading") or ranking_round.parent
-    ranking_table = None
-
-    for tag in ranking_heading.find_next_siblings():
-        if getattr(tag, "name", None) == "table":
-            ranking_table = tag
-            break
+    ranking_heading = ranking_round if ranking_round.name in ["h2", "h3"] else (ranking_round.find_parent("div", class_="mw-heading") or ranking_round.parent)
+    ranking_table = ranking_heading.find_next_sibling("table") or ranking_heading.find_next("table")
 
     if ranking_table is None:
         raise ValueError("Ranking round table not found")
 
     team_map = {}
     rows = ranking_table.find_all("tr")
-
-    for row in rows[1:]:
-        cells = row.find_all("td")
-        if len(cells) < 3:
+    
+    format_a = False
+    for row in rows:
+        headers = row.find_all("th")
+        for th in headers:
+            th_text = clean_text(th).lower()
+            if "archer" in th_text or "name" in th_text or "athlete" in th_text:
+                format_a = True
+                break
+        if format_a:
+            break
+            
+    current_country = None
+    
+    for row in rows:
+        cells = row.find_all(["td", "th"])
+        if len(cells) < 2:
             continue
-
-        country = clean_text(cells[1])
-        combined_archers = [text.strip() for text in cells[2].stripped_strings if text.strip()]
-
-        if len(combined_archers) >= 2:
-            archers = combined_archers
-        elif len(cells) >= 4:
-            archers = [clean_text(cells[2]), clean_text(cells[3])]
-            archers = [name for name in archers if name]
+            
+        if cells[0].name == "th":
+            continue
+            
+        first_text = clean_text(cells[0])
+        raw_second = clean_text(cells[1])
+        second_text = normalize_country(raw_second)
+        
+        if format_a:
+            if len(cells) >= 3:
+                country = second_text
+                
+                combined_archers = [text.strip() for text in cells[2].stripped_strings if text.strip()]
+                if len(combined_archers) >= 2:
+                    archers = combined_archers
+                elif len(cells) >= 4 and not any(c.isdigit() for c in clean_text(cells[3])):
+                    archers = [clean_text(cells[2]), clean_text(cells[3])]
+                    archers = [name for name in archers if name]
+                else:
+                    archers = combined_archers
+                
+                if country:
+                    team_map[country] = [format_athlete(archer, country) for archer in archers]
         else:
-            archers = combined_archers
-
-        if country:
-            team_map[country] = [format_athlete(archer, country) for archer in archers]
+            # Detect if this is a country row: first cell is a rank digit
+            first_is_rank = first_text.isdigit()
+            # Detect if second cell contains a score (digit-heavy), meaning first cell is the athlete name
+            second_has_digits = any(c.isdigit() for c in raw_second)
+            
+            if first_is_rank:
+                # Country row: rank | country | scores...
+                current_country = second_text
+                if current_country not in team_map:
+                    team_map[current_country] = []
+            elif not first_text or first_text in ("M", "W", "F"):
+                # Archer row with empty, M, W, F gender marker in first col: | gender | name | scores
+                if current_country and raw_second and not second_has_digits:
+                    team_map[current_country].append(format_athlete(raw_second, current_country))
+            elif not second_has_digits and len(cells) >= 2:
+                # Archer row where athlete name IS the first cell (no rank/gender prefix)
+                # e.g. ['Kim Woo-jin', '339', '336', ...]
+                archer_name = first_text
+                if current_country and archer_name:
+                    team_map[current_country].append(format_athlete(archer_name, current_country))
 
     return team_map
 
@@ -219,7 +272,7 @@ def extract_matches_from_table(table, team_map, section_name="", prefer_last_sco
             if start_col + 2 >= len(row):
                 continue
 
-            country = clean_text(row[start_col + 1])
+            country = normalize_country(clean_text(row[start_col + 1]))
             score = extract_set_point_score(row, start_col, end_col, prefer_last=prefer_last_score)
 
             if not country:

@@ -100,10 +100,12 @@ def build_table_grid(table):
             logical_row.append(spans[(row_index, column_index)])
             column_index += 1
 
-        rows.append({
-            "cells": logical_row,
-            "has_data_cells": any(cell.name == "td" for cell in direct_cells),
-        })
+        rows.append(
+            {
+                "cells": logical_row,
+                "has_data_cells": any(cell.name == "td" for cell in direct_cells),
+            }
+        )
 
     return rows
 
@@ -134,7 +136,9 @@ def find_event_column_index(table_rows):
 
 def is_internal_wiki_link(link):
     href = (link or {}).get("href", "")
-    return bool(href) and href.startswith("/wiki/") and not href.startswith("/wiki/Help:")
+    return (
+        bool(href) and href.startswith("/wiki/") and not href.startswith("/wiki/Help:")
+    )
 
 
 def is_event_page_link(link):
@@ -212,7 +216,9 @@ def extract_schedule_events(championship_url):
     if not schedule:
         raise ValueError("Schedule section not found")
 
-    schedule_heading = schedule.find_parent("div", class_="mw-heading") or schedule.parent
+    schedule_heading = (
+        schedule.find_parent("div", class_="mw-heading") or schedule.parent
+    )
     schedule_table = find_schedule_table(schedule_heading)
     if schedule_table is None:
         raise ValueError("Competition schedule table not found")
@@ -236,12 +242,14 @@ def extract_schedule_events(championship_url):
             continue
 
         seen_titles.add(page_title)
-        events.append({
-            "championship_name": championship_name,
-            "event": event_name,
-            "page_title": page_title,
-            "url": urljoin(championship_url, event_link.get("href", "")),
-        })
+        events.append(
+            {
+                "championship_name": championship_name,
+                "event": event_name,
+                "page_title": page_title,
+                "url": urljoin(championship_url, event_link.get("href", "")),
+            }
+        )
 
     return events
 
@@ -289,21 +297,25 @@ def build_rows(championship_url):
         for event in schedule_events:
             extractor = choose_extractor(event["page_title"], extractors)
             event_html = fetch_html(event["url"])
-            event_file = write_temp_html(temp_dir, safe_filename(event["page_title"]), event_html)
+            event_file = write_temp_html(
+                temp_dir, safe_filename(event["page_title"]), event_html
+            )
             event_rows = extractor.extract_bracket(str(event_file))
 
             for row in event_rows:
-                rows.append({
-                    "championship_name": event["championship_name"],
-                    "event": event["event"],
-                    "round_name": row.get("round_name", ""),
-                    "round": row.get("round", ""),
-                    "player_a": row["player_a"],
-                    "player_b": row["player_b"],
-                    "score_a": row["score_a"],
-                    "score_b": row["score_b"],
-                    "winner": row["winner"],
-                })
+                rows.append(
+                    {
+                        "championship_name": event["championship_name"],
+                        "event": event["event"],
+                        "round_name": row.get("round_name", ""),
+                        "round": row.get("round", ""),
+                        "player_a": row["player_a"],
+                        "player_b": row["player_b"],
+                        "score_a": row["score_a"],
+                        "score_b": row["score_b"],
+                        "winner": row["winner"],
+                    }
+                )
 
     return rows
 
