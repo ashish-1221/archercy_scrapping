@@ -1,591 +1,1413 @@
 championship_name,event,round,player_a,state_a,score_a,player_b,state_b,score_b,winner
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Bommadevara Dhiraj,Services Sports Control Board,3,Jitender Rawat,Uttarakhand,7,Jitender Rawat
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Smaran Sarvesh L R,Tamil Nadu,6,Basant Kumar,Haryana,5,Smaran Sarvesh L R
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Paras Hooda,Haryana,2,Harshit Kumar,Uttarakhand,6,Harshit Kumar
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Kartik Rana,Uttarakhand,4,Indra Indra,Services Sports Control Board,6,Indra Indra
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Rahul,Services Sports Control Board,6,Ajay Nagarwal,Rajasthan,2,Rahul
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Dhruv Bagga,Delhi,7,Mahesh Kumawat,Rajasthan,1,Dhruv Bagga
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Takhellambam Meitei,Manipur,6,Sachin Vedwan,Mizoram,2,Takhellambam Meitei
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Kodandapani Jathya,Andhra Pradesh,0,Amit Kumar,Madhya Pradesh,6,Amit Kumar
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Juyel Sarkar,West Bengal,6,Gitesh Yadav,Chhattisgarh,2,Juyel Sarkar
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Rohit Kumar,Uttar Pradesh,6,Bishal Changmai,Assam,5,Rohit Kumar
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Agastay Singh,Haryana,7,Divyansh Chaudhary,Haryana,3,Agastay Singh
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Jayanta Talukdar,Assam,6,Neeraj Chauhan,Uttar Pradesh,0,Jayanta Talukdar
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Goldi Mishra,Jharkhand,6,Shrey Bhardwaj,Jharkhand,4,Goldi Mishra
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Shukmani Babrekar,Maharashtra,4,Atul Verma,Uttarakhand,6,Atul Verma
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Sukhchain Singh,Services Sports Control Board,7,Aman Yadav,Uttar Pradesh,3,Sukhchain Singh
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Arjuna Khara,Odisha,2,Tarun Rai,Sikkim,6,Tarun Rai
-38th National Games Uttarakhand,Recurve Men Individual,Round 2,Jitender Rawat,Uttarakhand,0,Smaran Sarvesh L R,Tamil Nadu,6,Smaran Sarvesh L R
-38th National Games Uttarakhand,Recurve Men Individual,Round 2,Harshit Kumar,Uttarakhand,0,Indra Indra,Services Sports Control Board,6,Indra Indra
-38th National Games Uttarakhand,Recurve Men Individual,Round 2,Rahul,Services Sports Control Board,7,Dhruv Bagga,Delhi,1,Rahul
-38th National Games Uttarakhand,Recurve Men Individual,Round 2,Takhellambam Meitei,Manipur,6,Amit Kumar,Madhya Pradesh,5,Takhellambam Meitei
-38th National Games Uttarakhand,Recurve Men Individual,Round 2,Juyel Sarkar,West Bengal,7,Rohit Kumar,Uttar Pradesh,3,Juyel Sarkar
-38th National Games Uttarakhand,Recurve Men Individual,Round 2,Agastay Singh,Haryana,0,Jayanta Talukdar,Assam,6,Jayanta Talukdar
-38th National Games Uttarakhand,Recurve Men Individual,Round 2,Goldi Mishra,Jharkhand,6,Atul Verma,Uttarakhand,4,Goldi Mishra
-38th National Games Uttarakhand,Recurve Men Individual,Round 2,Sukhchain Singh,Services Sports Control Board,3,Tarun Rai,Sikkim,7,Tarun Rai
-38th National Games Uttarakhand,Recurve Men Individual,Quarter Final,Smaran Sarvesh L R,Tamil Nadu,0,Indra Indra,Services Sports Control Board,6,Indra Indra
-38th National Games Uttarakhand,Recurve Men Individual,Quarter Final,Rahul,Services Sports Control Board,6,Takhellambam Meitei,Manipur,0,Rahul
-38th National Games Uttarakhand,Recurve Men Individual,Quarter Final,Juyel Sarkar,West Bengal,6,Jayanta Talukdar,Assam,2,Juyel Sarkar
-38th National Games Uttarakhand,Recurve Men Individual,Quarter Final,Goldi Mishra,Jharkhand,4,Tarun Rai,Sikkim,6,Tarun Rai
-38th National Games Uttarakhand,Recurve Men Individual,Semi Final,Indra Indra,Services Sports Control Board,6,Rahul,Services Sports Control Board,4,Indra Indra
-38th National Games Uttarakhand,Recurve Men Individual,Semi Final,Juyel Sarkar,West Bengal,6,Tarun Rai,Sikkim,2,Juyel Sarkar
-38th National Games Uttarakhand,Recurve Men Individual,Final,Juyel Sarkar,West Bengal,6,Indra Indra,Services Sports Control Board,4,Juyel Sarkar
-38th National Games Uttarakhand,Recurve Men Individual,Winner,Juyel Sarkar,West Bengal,,,,,
-38th National Games Uttarakhand,Recurve Men Individual,Round 1,Rahul,Services Sports Control Board,2,Tarun Rai,Sikkim,6,Tarun Rai
-38th National Games Uttarakhand,Recurve Men Individual,Round 2,Tarun Rai,Sikkim,,,,,
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Bommadevara Dhiraj,Services Sports Control Board,3,Jitender Rawat,Uttarakhand,7,Jitender Rawat
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Smaran Sarvesh L R,Tamil Nadu,6,Basant Kumar,Haryana,5,Smaran Sarvesh L R
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Paras Hooda,Haryana,2,Harshit Kumar,Uttarakhand,6,Harshit Kumar
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Kartik Rana,Uttarakhand,4,Indra Indra,Services Sports Control Board,6,Indra Indra
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Rahul,Services Sports Control Board,6,Ajay Nagarwal,Rajasthan,2,Rahul
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Dhruv Bagga,Delhi,7,Mahesh Kumawat,Rajasthan,1,Dhruv Bagga
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Takhellambam Meitei,Manipur,6,Sachin Vedwan,Mizoram,2,Takhellambam Meitei
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Kodandapani Jathya,Andhra Pradesh,0,Amit Kumar,Madhya Pradesh,6,Amit Kumar
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Juyel Sarkar,West Bengal,6,Gitesh Yadav,Chhattisgarh,2,Juyel Sarkar
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Rohit Kumar,Uttar Pradesh,6,Bishal Changmai,Assam,5,Rohit Kumar
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Agastay Singh,Haryana,7,Divyansh Chaudhary,Haryana,3,Agastay Singh
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Jayanta Talukdar,Assam,6,Neeraj Chauhan,Uttar Pradesh,0,Jayanta Talukdar
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Goldi Mishra,Jharkhand,6,Shrey Bhardwaj,Jharkhand,4,Goldi Mishra
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Shukmani Babrekar,Maharashtra,4,Atul Verma,Uttarakhand,6,Atul Verma
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Sukhchain Singh,Services Sports Control Board,7,Aman Yadav,Uttar Pradesh,3,Sukhchain Singh
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Arjuna Khara,Odisha,2,Tarun Rai,Sikkim,6,Tarun Rai
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Jitender Rawat,Uttarakhand,0,Smaran Sarvesh L R,Tamil Nadu,6,Smaran Sarvesh L R
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Harshit Kumar,Uttarakhand,0,Indra Indra,Services Sports Control Board,6,Indra Indra
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Rahul,Services Sports Control Board,7,Dhruv Bagga,Delhi,1,Rahul
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Takhellambam Meitei,Manipur,6,Amit Kumar,Madhya Pradesh,5,Takhellambam Meitei
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Juyel Sarkar,West Bengal,7,Rohit Kumar,Uttar Pradesh,3,Juyel Sarkar
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Agastay Singh,Haryana,0,Jayanta Talukdar,Assam,6,Jayanta Talukdar
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Goldi Mishra,Jharkhand,6,Atul Verma,Uttarakhand,4,Goldi Mishra
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Sukhchain Singh,Services Sports Control Board,3,Tarun Rai,Sikkim,7,Tarun Rai
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Smaran Sarvesh L R,Tamil Nadu,0,Indra Indra,Services Sports Control Board,6,Indra Indra
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Rahul,Services Sports Control Board,6,Takhellambam Meitei,Manipur,0,Rahul
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Juyel Sarkar,West Bengal,6,Jayanta Talukdar,Assam,2,Juyel Sarkar
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Goldi Mishra,Jharkhand,4,Tarun Rai,Sikkim,6,Tarun Rai
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Indra Indra,Services Sports Control Board,6,Rahul,Services Sports Control Board,4,Indra Indra
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Juyel Sarkar,West Bengal,6,Tarun Rai,Sikkim,2,Juyel Sarkar
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Juyel Sarkar,West Bengal,6,Indra Indra,Services Sports Control Board,4,Juyel Sarkar
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Juyel Sarkar,West Bengal,,,,,
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Rahul,Services Sports Control Board,2,Tarun Rai,Sikkim,6,Tarun Rai
-38th National Games Uttarakhand,Recurve Men Individual,Bronze,Tarun Rai,Sikkim,,,,,
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Abhishek Verma,Delhi,149,Prince Rajput,Uttar Pradesh,147,Abhishek Verma
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Prathmesh Fuge,Maharashtra,147,Siddharth Dudhwal,Rajasthan,145,Prathmesh Fuge
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Ojas Deotale,Maharashtra,147,Deepak Kumar,Jharkhand,145,Ojas Deotale
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Sahil Jadhav,Maharashtra,146,Toman Kumar,Chhattisgarh,142,Sahil Jadhav
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Madhur,Delhi,147(9,Thirumuru Mani Ratnam,Andhra Pradesh,147(1,
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Jasmeet Singh,Rajasthan,145,Chinnaraju Srither,Tamil Nadu,139,Jasmeet Singh
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Rohit Dagar,Haryana,145,Hritik Sharma,Jammu and Kashmir,147,Hritik Sharma
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Mohit Dagar,Haryana,147,Kunderu Venkatadri,Services Sports Control Board,145,Mohit Dagar
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Gurwinder Singh,Punjab,145,Priyansh,Delhi,148,Priyansh
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Kushal Dalal,Haryana,148,Shekher Vaidwan,Services Sports Control Board,146,Kushal Dalal
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Aman Saini,Delhi,146(1,Tejbeersingh Jahagirdar,Maharashtra,146(9,
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Naveen,Chandigarh,140,Chirag Vidhyarthi,Madhya Pradesh,148,Chirag Vidhyarthi
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Uday Kamboj,Punjab,148,Amit Thakur,Jammu and Kashmir,142,Uday Kamboj
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Simranjot Singh,Punjab,141,Rajat Chauhan,Rajasthan,147,Rajat Chauhan
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Sukhmandeep Singh,Punjab,144(1,Amit Thakur,Jammu and Kashmir,144(9,
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Chittibomma Jignas,Services Sports Control Board,143,Rishabh Yadav,Haryana,146,Rishabh Yadav
-38th National Games Uttarakhand,Compound Men Individual,Round 2,Abhishek Verma,Delhi,147,Ojas Deotale,Maharashtra,149,Ojas Deotale
-38th National Games Uttarakhand,Compound Men Individual,Round 2,Sahil Jadhav,Maharashtra,148,Thirumuru Mani Ratnam,Andhra Pradesh,148,
-38th National Games Uttarakhand,Compound Men Individual,Round 2,Jasmeet Singh,Rajasthan,148,Hritik Sharma,Jammu and Kashmir,149,Hritik Sharma
-38th National Games Uttarakhand,Compound Men Individual,Round 2,Mohit Dagar,Haryana,146,Priyansh,Delhi,147,Priyansh
-38th National Games Uttarakhand,Compound Men Individual,Round 2,Kushal Dalal,Haryana,149,Aman Saini,Delhi,147,Kushal Dalal
-38th National Games Uttarakhand,Compound Men Individual,Round 2,Prathmesh Fuge,Maharashtra,148,Chirag Vidhyarthi,Madhya Pradesh,145,Prathmesh Fuge
-38th National Games Uttarakhand,Compound Men Individual,Round 2,Uday Kamboj,Punjab,147,Rajat Chauhan,Rajasthan,150,Rajat Chauhan
-38th National Games Uttarakhand,Compound Men Individual,Round 2,Sukhmandeep Singh,Punjab,145,Rishabh Yadav,Haryana,149,Rishabh Yadav
-38th National Games Uttarakhand,Compound Men Individual,Quarter Final,Ojas Deotale,Maharashtra,147,Thirumuru Mani Ratnam,Andhra Pradesh,147,
-38th National Games Uttarakhand,Compound Men Individual,Quarter Final,Hritik Sharma,Jammu and Kashmir,148,Priyansh,Delhi,146,Hritik Sharma
-38th National Games Uttarakhand,Compound Men Individual,Quarter Final,Kushal Dalal,Haryana,149,Prathmesh Fuge,Maharashtra,146,Kushal Dalal
-38th National Games Uttarakhand,Compound Men Individual,Quarter Final,Rajat Chauhan,Rajasthan,149,Rishabh Yadav,Haryana,148,Rajat Chauhan
-38th National Games Uttarakhand,Compound Men Individual,Semi Final,Thirumuru Mani Ratnam,Andhra Pradesh,145,Hritik Sharma,Jammu and Kashmir,248,Hritik Sharma
-38th National Games Uttarakhand,Compound Men Individual,Semi Final,Kushal Dalal,Haryana,145,Rajat Chauhan,Rajasthan,146,Rajat Chauhan
-38th National Games Uttarakhand,Compound Men Individual,Final,Rajat Chauhan,Rajasthan,144,Hritik Sharma,Jammu and Kashmir,143,Rajat Chauhan
-38th National Games Uttarakhand,Compound Men Individual,Winner,Rajat Chauhan,Rajasthan,,,,,
-38th National Games Uttarakhand,Compound Men Individual,Round 1,Thirumuru Mani Ratnam,Andhra Pradesh,149,Kushal Dalal,Haryana,144,Thirumuru Mani Ratnam
-38th National Games Uttarakhand,Compound Men Individual,Round 2,Thirumuru Mani Ratnam,Andhra Pradesh,,,,,
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Abhishek Verma,Delhi,149,Prince Rajput,Uttar Pradesh,147,Abhishek Verma
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Prathmesh Fuge,Maharashtra,147,Siddharth Dudhwal,Rajasthan,145,Prathmesh Fuge
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Ojas Deotale,Maharashtra,147,Deepak Kumar,Jharkhand,145,Ojas Deotale
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Sahil Jadhav,Maharashtra,146,Toman Kumar,Chhattisgarh,142,Sahil Jadhav
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Madhur,Delhi,147(9,Thirumuru Mani Ratnam,Andhra Pradesh,147(1,
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Jasmeet Singh,Rajasthan,145,Chinnaraju Srither,Tamil Nadu,139,Jasmeet Singh
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Rohit Dagar,Haryana,145,Hritik Sharma,Jammu and Kashmir,147,Hritik Sharma
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Mohit Dagar,Haryana,147,Kunderu Venkatadri,Services Sports Control Board,145,Mohit Dagar
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Gurwinder Singh,Punjab,145,Priyansh,Delhi,148,Priyansh
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Kushal Dalal,Haryana,148,Shekher Vaidwan,Services Sports Control Board,146,Kushal Dalal
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Aman Saini,Delhi,146(1,Tejbeersingh Jahagirdar,Maharashtra,146(9,
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Naveen,Chandigarh,140,Chirag Vidhyarthi,Madhya Pradesh,148,Chirag Vidhyarthi
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Uday Kamboj,Punjab,148,Amit Thakur,Jammu and Kashmir,142,Uday Kamboj
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Simranjot Singh,Punjab,141,Rajat Chauhan,Rajasthan,147,Rajat Chauhan
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Sukhmandeep Singh,Punjab,144(1,Amit Thakur,Jammu and Kashmir,144(9,
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Chittibomma Jignas,Services Sports Control Board,143,Rishabh Yadav,Haryana,146,Rishabh Yadav
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Abhishek Verma,Delhi,147,Ojas Deotale,Maharashtra,149,Ojas Deotale
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Sahil Jadhav,Maharashtra,148,Thirumuru Mani Ratnam,Andhra Pradesh,148,
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Jasmeet Singh,Rajasthan,148,Hritik Sharma,Jammu and Kashmir,149,Hritik Sharma
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Mohit Dagar,Haryana,146,Priyansh,Delhi,147,Priyansh
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Kushal Dalal,Haryana,149,Aman Saini,Delhi,147,Kushal Dalal
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Prathmesh Fuge,Maharashtra,148,Chirag Vidhyarthi,Madhya Pradesh,145,Prathmesh Fuge
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Uday Kamboj,Punjab,147,Rajat Chauhan,Rajasthan,150,Rajat Chauhan
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Sukhmandeep Singh,Punjab,145,Rishabh Yadav,Haryana,149,Rishabh Yadav
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Ojas Deotale,Maharashtra,147,Thirumuru Mani Ratnam,Andhra Pradesh,147,
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Hritik Sharma,Jammu and Kashmir,148,Priyansh,Delhi,146,Hritik Sharma
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Kushal Dalal,Haryana,149,Prathmesh Fuge,Maharashtra,146,Kushal Dalal
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Rajat Chauhan,Rajasthan,149,Rishabh Yadav,Haryana,148,Rajat Chauhan
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Thirumuru Mani Ratnam,Andhra Pradesh,145,Hritik Sharma,Jammu and Kashmir,248,Hritik Sharma
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Kushal Dalal,Haryana,145,Rajat Chauhan,Rajasthan,146,Rajat Chauhan
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Rajat Chauhan,Rajasthan,144,Hritik Sharma,Jammu and Kashmir,143,Rajat Chauhan
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Rajat Chauhan,Rajasthan,,,,,
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Thirumuru Mani Ratnam,Andhra Pradesh,149,Kushal Dalal,Haryana,144,Thirumuru Mani Ratnam
-38th National Games Uttarakhand,Compound Men Individual,Bronze,Thirumuru Mani Ratnam,Andhra Pradesh,,,,,
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Adarsh Panwar,Uttarakhand,6,Pradeep,Uttarakhand,0,Adarsh Panwar
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Kamal Kumar,Rajasthan,4,Sraban Mandangi,Odisha,6,Sraban Mandangi
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Chanambam Singh,Manipur,6,Ravi,Haryana,4,Chanambam Singh
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Jay Prakash,Bihar,2,Gemmeli Naidu,Andhra Pradesh,6,Gemmeli Naidu
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Manish Manish,Uttar Pradesh,6,Sanjaya Majhi,Odisha,2,Manish Manish
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Vai Bhav,Mizoram,2,Jaydeep Kushwaha,Uttar Pradesh,6,Jaydeep Kushwaha
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Ashish Malik,Haryana,6,Abhishek,Uttar Pradesh,2,Ashish Malik
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Aniket Gavade,Maharashtra,7,Yashu,Haryana,1,Aniket Gavade
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Gaurav Chandane,Maharashtra,6,Pawan Jadhav,Maharashtra,0,Gaurav Chandane
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Roshan Solanke,Maharashtra,7,Monu Kumar,Delhi,3,Roshan Solanke
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Roshan Solanke,Maharashtra,7,Monu Kumar,Delhi,3,Roshan Solanke
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Madho Birua,Jharkhand,1,Rahul,Haryana,7,Rahul
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Keisham Singh,Manipur,5,Chingakham Singh,Manipur,5,
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Guduru Lokesh,Andhra Pradesh,6,Dasarath Rajagopal,Kerala,0,Guduru Lokesh
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Akumala Sathwik,Andhra Pradesh,1,Gurmann Kamboj,Punjab,7,Gurmann Kamboj
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Arun Baro,Assam,5,Elangbam Meitei,Manipur,5,
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Kayam Laxman,Telangana,0,Subham,Uttar Pradesh,6,Subham
-38th National Games Uttarakhand,Indian Round Men Individual,Round 2,Adarsh Panwar,Uttarakhand,6,Sraban Mandangi,Odisha,4,Adarsh Panwar
-38th National Games Uttarakhand,Indian Round Men Individual,Round 2,Chanambam Singh,Manipur,6,Gemmeli Naidu,Andhra Pradesh,4,Chanambam Singh
-38th National Games Uttarakhand,Indian Round Men Individual,Round 2,Manish Manish,Uttar Pradesh,7,Jaydeep Kushwaha,Uttar Pradesh,3,Manish Manish
-38th National Games Uttarakhand,Indian Round Men Individual,Round 2,Ashish Malik,Haryana,5,Aniket Gavade,Maharashtra,5,
-38th National Games Uttarakhand,Indian Round Men Individual,Round 2,Gaurav Chandane,Maharashtra,7,Roshan Solanke,Maharashtra,3,Gaurav Chandane
-38th National Games Uttarakhand,Indian Round Men Individual,Round 2,Rahul,Haryana,2,Chingakham Singh,Manipur,6,Chingakham Singh
-38th National Games Uttarakhand,Indian Round Men Individual,Round 2,Guduru Lokesh,Andhra Pradesh,5,Gurmann Kamboj,Punjab,5,
-38th National Games Uttarakhand,Indian Round Men Individual,Round 2,Elangbam Meitei,Manipur,2,Subham,Uttar Pradesh,6,Subham
-38th National Games Uttarakhand,Indian Round Men Individual,Quarter Final,Adarsh Panwar,Uttarakhand,7,Chanambam Singh,Manipur,3,Adarsh Panwar
-38th National Games Uttarakhand,Indian Round Men Individual,Quarter Final,Manish Manish,Uttar Pradesh,6,Ashish Malik,Haryana,4,Manish Manish
-38th National Games Uttarakhand,Indian Round Men Individual,Quarter Final,Gaurav Chandane,Maharashtra,3,Chingakham Singh,Manipur,7,Chingakham Singh
-38th National Games Uttarakhand,Indian Round Men Individual,Quarter Final,Gurmann Kamboj,Punjab,1,Subham,Uttar Pradesh,7,Subham
-38th National Games Uttarakhand,Indian Round Men Individual,Semi Final,Adarsh Panwar,Uttarakhand,2,Manish Manish,Uttar Pradesh,6,Manish Manish
-38th National Games Uttarakhand,Indian Round Men Individual,Semi Final,Chingakham Singh,Manipur,2,Subham,Uttar Pradesh,6,Subham
-38th National Games Uttarakhand,Indian Round Men Individual,Final,Manish Manish,Uttar Pradesh,,Subham,Uttar Pradesh,,
-38th National Games Uttarakhand,Indian Round Men Individual,Winner,Manish Manish,Uttar Pradesh,,,,,
-38th National Games Uttarakhand,Indian Round Men Individual,Round 1,Adarsh Panwar,Uttarakhand,0,Chingakham Singh,Manipur,0,
-38th National Games Uttarakhand,Indian Round Men Individual,Round 2,Adarsh Panwar,Uttarakhand,,,,,
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Adarsh Panwar,Uttarakhand,6,Pradeep,Uttarakhand,0,Adarsh Panwar
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Kamal Kumar,Rajasthan,4,Sraban Mandangi,Odisha,6,Sraban Mandangi
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Chanambam Singh,Manipur,6,Ravi,Haryana,4,Chanambam Singh
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Jay Prakash,Bihar,2,Gemmeli Naidu,Andhra Pradesh,6,Gemmeli Naidu
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Manish Manish,Uttar Pradesh,6,Sanjaya Majhi,Odisha,2,Manish Manish
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Vai Bhav,Mizoram,2,Jaydeep Kushwaha,Uttar Pradesh,6,Jaydeep Kushwaha
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Ashish Malik,Haryana,6,Abhishek,Uttar Pradesh,2,Ashish Malik
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Aniket Gavade,Maharashtra,7,Yashu,Haryana,1,Aniket Gavade
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Gaurav Chandane,Maharashtra,6,Pawan Jadhav,Maharashtra,0,Gaurav Chandane
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Roshan Solanke,Maharashtra,7,Monu Kumar,Delhi,3,Roshan Solanke
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Roshan Solanke,Maharashtra,7,Monu Kumar,Delhi,3,Roshan Solanke
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Madho Birua,Jharkhand,1,Rahul,Haryana,7,Rahul
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Keisham Singh,Manipur,5,Chingakham Singh,Manipur,5,
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Guduru Lokesh,Andhra Pradesh,6,Dasarath Rajagopal,Kerala,0,Guduru Lokesh
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Akumala Sathwik,Andhra Pradesh,1,Gurmann Kamboj,Punjab,7,Gurmann Kamboj
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Arun Baro,Assam,5,Elangbam Meitei,Manipur,5,
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Kayam Laxman,Telangana,0,Subham,Uttar Pradesh,6,Subham
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Adarsh Panwar,Uttarakhand,6,Sraban Mandangi,Odisha,4,Adarsh Panwar
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Chanambam Singh,Manipur,6,Gemmeli Naidu,Andhra Pradesh,4,Chanambam Singh
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Manish Manish,Uttar Pradesh,7,Jaydeep Kushwaha,Uttar Pradesh,3,Manish Manish
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Ashish Malik,Haryana,5,Aniket Gavade,Maharashtra,5,
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Gaurav Chandane,Maharashtra,7,Roshan Solanke,Maharashtra,3,Gaurav Chandane
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Rahul,Haryana,2,Chingakham Singh,Manipur,6,Chingakham Singh
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Guduru Lokesh,Andhra Pradesh,5,Gurmann Kamboj,Punjab,5,
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Elangbam Meitei,Manipur,2,Subham,Uttar Pradesh,6,Subham
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Adarsh Panwar,Uttarakhand,7,Chanambam Singh,Manipur,3,Adarsh Panwar
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Manish Manish,Uttar Pradesh,6,Ashish Malik,Haryana,4,Manish Manish
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Gaurav Chandane,Maharashtra,3,Chingakham Singh,Manipur,7,Chingakham Singh
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Gurmann Kamboj,Punjab,1,Subham,Uttar Pradesh,7,Subham
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Adarsh Panwar,Uttarakhand,2,Manish Manish,Uttar Pradesh,6,Manish Manish
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Chingakham Singh,Manipur,2,Subham,Uttar Pradesh,6,Subham
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Manish Manish,Uttar Pradesh,,Subham,Uttar Pradesh,,
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Manish Manish,Uttar Pradesh,,,,,
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Adarsh Panwar,Uttarakhand,0,Chingakham Singh,Manipur,0,
-38th National Games Uttarakhand,Indian Round Men Individual,Bronze,Adarsh Panwar,Uttarakhand,,,,,
-38th National Games Uttarakhand,Recurve Men Team,Quarter Final,Services Sports Control Board,,6,Rajasthan,,2,Services Sports Control Board
-38th National Games Uttarakhand,Recurve Men Team,Quarter Final,Jharkhand,,6,Uttarakhand,,0,Jharkhand
-38th National Games Uttarakhand,Recurve Men Team,Quarter Final,Uttar Pradesh,,6,Assam,,0,Uttar Pradesh
-38th National Games Uttarakhand,Recurve Men Team,Quarter Final,Delhi,,1,Haryana,,5,Haryana
-38th National Games Uttarakhand,Recurve Men Team,Semi Final,Services Sports Control Board,,3,Jharkhand,,5,Jharkhand
-38th National Games Uttarakhand,Recurve Men Team,Semi Final,Uttar Pradesh,,5,Haryana,,4,Uttar Pradesh
-38th National Games Uttarakhand,Recurve Men Team,Final,Jharkhand,,5,Uttar Pradesh,,4,Jharkhand
-38th National Games Uttarakhand,Recurve Men Team,Winner,Jharkhand,,,,,,
-38th National Games Uttarakhand,Recurve Men Team,Quarter Final,Services Sports Control Board,,5,Haryana,,4,Services Sports Control Board
-38th National Games Uttarakhand,Recurve Men Team,Semi Final,Services Sports Control Board,,,,,,
-38th National Games Uttarakhand,Recurve Men Team,Bronze,Services Sports Control Board,,6,Rajasthan,,2,Services Sports Control Board
-38th National Games Uttarakhand,Recurve Men Team,Bronze,Jharkhand,,6,Uttarakhand,,0,Jharkhand
-38th National Games Uttarakhand,Recurve Men Team,Bronze,Uttar Pradesh,,6,Assam,,0,Uttar Pradesh
-38th National Games Uttarakhand,Recurve Men Team,Bronze,Delhi,,1,Haryana,,5,Haryana
-38th National Games Uttarakhand,Recurve Men Team,Bronze,Services Sports Control Board,,3,Jharkhand,,5,Jharkhand
-38th National Games Uttarakhand,Recurve Men Team,Bronze,Uttar Pradesh,,5,Haryana,,4,Uttar Pradesh
-38th National Games Uttarakhand,Recurve Men Team,Bronze,Jharkhand,,5,Uttar Pradesh,,4,Jharkhand
-38th National Games Uttarakhand,Recurve Men Team,Bronze,Jharkhand,,,,,,
-38th National Games Uttarakhand,Recurve Men Team,Bronze,Services Sports Control Board,,5,Haryana,,4,Services Sports Control Board
-38th National Games Uttarakhand,Recurve Men Team,Bronze,Services Sports Control Board,,,,,,
-38th National Games Uttarakhand,Compound Men Team,Quarter Final,Haryana,,235,Uttarakhand,,231,Haryana
-38th National Games Uttarakhand,Compound Men Team,Quarter Final,Punjab,,229,Rajasthan,,232,Rajasthan
-38th National Games Uttarakhand,Compound Men Team,Quarter Final,Maharashtra,,230,Jammu and Kashmir,,231,Jammu and Kashmir
-38th National Games Uttarakhand,Compound Men Team,Quarter Final,Services Sports Control Board,,232,Delhi,,237,Delhi
-38th National Games Uttarakhand,Compound Men Team,Semi Final,Haryana,,232,Rajasthan,,227,Haryana
-38th National Games Uttarakhand,Compound Men Team,Semi Final,Jammu and Kashmir,,229,Delhi,,235,Delhi
-38th National Games Uttarakhand,Compound Men Team,Final,Delhi,,234,Haryana,,232,Delhi
-38th National Games Uttarakhand,Compound Men Team,Winner,Delhi,,,,,,
-38th National Games Uttarakhand,Compound Men Team,Quarter Final,Rajasthan,,229,Jammu and Kashmir,,222,Rajasthan
-38th National Games Uttarakhand,Compound Men Team,Semi Final,Rajasthan,,,,,,
-38th National Games Uttarakhand,Compound Men Team,Bronze,Haryana,,235,Uttarakhand,,231,Haryana
-38th National Games Uttarakhand,Compound Men Team,Bronze,Punjab,,229,Rajasthan,,232,Rajasthan
-38th National Games Uttarakhand,Compound Men Team,Bronze,Maharashtra,,230,Jammu and Kashmir,,231,Jammu and Kashmir
-38th National Games Uttarakhand,Compound Men Team,Bronze,Services Sports Control Board,,232,Delhi,,237,Delhi
-38th National Games Uttarakhand,Compound Men Team,Bronze,Haryana,,232,Rajasthan,,227,Haryana
-38th National Games Uttarakhand,Compound Men Team,Bronze,Jammu and Kashmir,,229,Delhi,,235,Delhi
-38th National Games Uttarakhand,Compound Men Team,Bronze,Delhi,,234,Haryana,,232,Delhi
-38th National Games Uttarakhand,Compound Men Team,Bronze,Delhi,,,,,,
-38th National Games Uttarakhand,Compound Men Team,Bronze,Rajasthan,,229,Jammu and Kashmir,,222,Rajasthan
-38th National Games Uttarakhand,Compound Men Team,Bronze,Rajasthan,,,,,,
-38th National Games Uttarakhand,Indian Round Men Team,Quarter Final,Uttar Pradesh,,6,Rajasthan,,0,Uttar Pradesh
-38th National Games Uttarakhand,Indian Round Men Team,Quarter Final,Maharashtra,,6,Andhra Pradesh,,0,Maharashtra
-38th National Games Uttarakhand,Indian Round Men Team,Quarter Final,Haryana,,6,Uttarakhand,,0,Haryana
-38th National Games Uttarakhand,Indian Round Men Team,Quarter Final,Odisha,,6,Manipur,,2,Odisha
-38th National Games Uttarakhand,Indian Round Men Team,Semi Final,Uttar Pradesh,,5,Maharashtra,,3,Uttar Pradesh
-38th National Games Uttarakhand,Indian Round Men Team,Semi Final,Haryana,,6,Odisha,,2,Haryana
-38th National Games Uttarakhand,Indian Round Men Team,Final,Uttar Pradesh,,,Haryana,,,
-38th National Games Uttarakhand,Indian Round Men Team,Winner,Uttar Pradesh,,,,,,
-38th National Games Uttarakhand,Indian Round Men Team,Quarter Final,Maharashtra,,0,Odisha,,0,
-38th National Games Uttarakhand,Indian Round Men Team,Semi Final,Maharashtra,,,,,,
-38th National Games Uttarakhand,Indian Round Men Team,Bronze,Uttar Pradesh,,6,Rajasthan,,0,Uttar Pradesh
-38th National Games Uttarakhand,Indian Round Men Team,Bronze,Maharashtra,,6,Andhra Pradesh,,0,Maharashtra
-38th National Games Uttarakhand,Indian Round Men Team,Bronze,Haryana,,6,Uttarakhand,,0,Haryana
-38th National Games Uttarakhand,Indian Round Men Team,Bronze,Odisha,,6,Manipur,,2,Odisha
-38th National Games Uttarakhand,Indian Round Men Team,Bronze,Uttar Pradesh,,5,Maharashtra,,3,Uttar Pradesh
-38th National Games Uttarakhand,Indian Round Men Team,Bronze,Haryana,,6,Odisha,,2,Haryana
-38th National Games Uttarakhand,Indian Round Men Team,Bronze,Uttar Pradesh,,,Haryana,,,
-38th National Games Uttarakhand,Indian Round Men Team,Bronze,Uttar Pradesh,,,,,,
-38th National Games Uttarakhand,Indian Round Men Team,Bronze,Maharashtra,,0,Odisha,,0,
-38th National Games Uttarakhand,Indian Round Men Team,Bronze,Maharashtra,,,,,,
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Deepika Kumari,Jharkhand,6,Rimil Hembram,West Bengal,0,Deepika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Maitriben Padhiyar,Gujarat,2,Gunjan Kumari,Delhi,6,Gunjan Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Sharvari Shende,Maharashtra,4,Kondapavuluri Sri,Andhra Pradesh,6,Kondapavuluri Sri
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Pranjal Tholiya,Rajasthan,2,Simranjeet Kaur,Punjab,6,Simranjeet Kaur
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Gatha Khadake,Maharashtra,6,Tamanna Verma,Jharkhand,0,Gatha Khadake
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Aditi Jaiswal,West Bengal,4,Kirti,Haryana,6,Kirti
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Mukta Modgi,Maharashtra,7,Anisha Das,Assam,3,Mukta Modgi
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Jashna Brahma,Assam,4,Bhagora Bhargaviben,Gujarat,6,Bhagora Bhargaviben
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Basanti Mahato,West Bengal,6,Punam Singh,Bihar,2,Basanti Mahato
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Ruma Biswas,West Bengal,7,Promila Daimary,Assam,3,Ruma Biswas
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Anshika Kumari,Bihar,6,Harpreet Kaur,Rajasthan,4,Anshika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Veerpal Kaur,Punjab,2,Vaishnavi Pawar,Maharashtra,6,Vaishnavi Pawar
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Ankita Bhakat,Jharkhand,6,Avani,Haryana,0,Ankita Bhakat
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Diksha Nayak,Chhattisgarh,0,Bhajan Kaur,Haryana,6,Bhajan Kaur
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Sonali Basumatary,Assam,6,Jahnvi Deshmukh,Madhya Pradesh,4,Sonali Basumatary
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Kratika Bichpuriya,Madhya Pradesh,2,Komalika Bari,Jharkhand,6,Komalika Bari
-38th National Games Uttarakhand,Recurve Women Individual,Round 2,Deepika Kumari,Jharkhand,6,Gunjan Kumari,Delhi,2,Deepika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Round 2,Kondapavuluri Sri,Andhra Pradesh,0,Simranjeet Kaur,Punjab,6,Simranjeet Kaur
-38th National Games Uttarakhand,Recurve Women Individual,Round 2,Gatha Khadake,Maharashtra,7,Kirti,Haryana,3,Gatha Khadake
-38th National Games Uttarakhand,Recurve Women Individual,Round 2,Mukta Modgi,Maharashtra,2,Bhagora Bhargaviben,Gujarat,6,Bhagora Bhargaviben
-38th National Games Uttarakhand,Recurve Women Individual,Round 2,Basanti Mahato,West Bengal,5,Ruma Biswas,West Bengal,6,Ruma Biswas
-38th National Games Uttarakhand,Recurve Women Individual,Round 2,Anshika Kumari,Bihar,6,Vaishnavi Pawar,Maharashtra,4,Anshika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Round 2,Ankita Bhakat,Jharkhand,6,Bhajan Kaur,Haryana,2,Ankita Bhakat
-38th National Games Uttarakhand,Recurve Women Individual,Round 2,Sonali Basumatary,Assam,2,Komalika Bari,Jharkhand,6,Komalika Bari
-38th National Games Uttarakhand,Recurve Women Individual,Quarter Final,Deepika Kumari,Jharkhand,6,Simranjeet Kaur,Punjab,5,Deepika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Quarter Final,Gatha Khadake,Maharashtra,6,Bhagora Bhargaviben,Gujarat,4,Gatha Khadake
-38th National Games Uttarakhand,Recurve Women Individual,Quarter Final,Ruma Biswas,West Bengal,4,Anshika Kumari,Bihar,6,Anshika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Quarter Final,Ankita Bhakat,Jharkhand,5,Komalika Bari,Jharkhand,6,Komalika Bari
-38th National Games Uttarakhand,Recurve Women Individual,Semi Final,Deepika Kumari,Jharkhand,6,Gatha Khadake,Maharashtra,5,Deepika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Semi Final,Anshika Kumari,Bihar,6,Komalika Bari,Jharkhand,4,Anshika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Final,Deepika Kumari,Jharkhand,6,Anshika Kumari,Bihar,4,Deepika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Winner,Deepika Kumari,Jharkhand,,,,,
-38th National Games Uttarakhand,Recurve Women Individual,Round 1,Gatha Khadake,Maharashtra,4,Komalika Bari,Jharkhand,6,Komalika Bari
-38th National Games Uttarakhand,Recurve Women Individual,Round 2,Komalika Bari,Jharkhand,,,,,
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Deepika Kumari,Jharkhand,6,Rimil Hembram,West Bengal,0,Deepika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Maitriben Padhiyar,Gujarat,2,Gunjan Kumari,Delhi,6,Gunjan Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Sharvari Shende,Maharashtra,4,Kondapavuluri Sri,Andhra Pradesh,6,Kondapavuluri Sri
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Pranjal Tholiya,Rajasthan,2,Simranjeet Kaur,Punjab,6,Simranjeet Kaur
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Gatha Khadake,Maharashtra,6,Tamanna Verma,Jharkhand,0,Gatha Khadake
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Aditi Jaiswal,West Bengal,4,Kirti,Haryana,6,Kirti
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Mukta Modgi,Maharashtra,7,Anisha Das,Assam,3,Mukta Modgi
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Jashna Brahma,Assam,4,Bhagora Bhargaviben,Gujarat,6,Bhagora Bhargaviben
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Basanti Mahato,West Bengal,6,Punam Singh,Bihar,2,Basanti Mahato
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Ruma Biswas,West Bengal,7,Promila Daimary,Assam,3,Ruma Biswas
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Anshika Kumari,Bihar,6,Harpreet Kaur,Rajasthan,4,Anshika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Veerpal Kaur,Punjab,2,Vaishnavi Pawar,Maharashtra,6,Vaishnavi Pawar
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Ankita Bhakat,Jharkhand,6,Avani,Haryana,0,Ankita Bhakat
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Diksha Nayak,Chhattisgarh,0,Bhajan Kaur,Haryana,6,Bhajan Kaur
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Sonali Basumatary,Assam,6,Jahnvi Deshmukh,Madhya Pradesh,4,Sonali Basumatary
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Kratika Bichpuriya,Madhya Pradesh,2,Komalika Bari,Jharkhand,6,Komalika Bari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Deepika Kumari,Jharkhand,6,Gunjan Kumari,Delhi,2,Deepika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Kondapavuluri Sri,Andhra Pradesh,0,Simranjeet Kaur,Punjab,6,Simranjeet Kaur
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Gatha Khadake,Maharashtra,7,Kirti,Haryana,3,Gatha Khadake
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Mukta Modgi,Maharashtra,2,Bhagora Bhargaviben,Gujarat,6,Bhagora Bhargaviben
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Basanti Mahato,West Bengal,5,Ruma Biswas,West Bengal,6,Ruma Biswas
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Anshika Kumari,Bihar,6,Vaishnavi Pawar,Maharashtra,4,Anshika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Ankita Bhakat,Jharkhand,6,Bhajan Kaur,Haryana,2,Ankita Bhakat
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Sonali Basumatary,Assam,2,Komalika Bari,Jharkhand,6,Komalika Bari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Deepika Kumari,Jharkhand,6,Simranjeet Kaur,Punjab,5,Deepika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Gatha Khadake,Maharashtra,6,Bhagora Bhargaviben,Gujarat,4,Gatha Khadake
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Ruma Biswas,West Bengal,4,Anshika Kumari,Bihar,6,Anshika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Ankita Bhakat,Jharkhand,5,Komalika Bari,Jharkhand,6,Komalika Bari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Deepika Kumari,Jharkhand,6,Gatha Khadake,Maharashtra,5,Deepika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Anshika Kumari,Bihar,6,Komalika Bari,Jharkhand,4,Anshika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Deepika Kumari,Jharkhand,6,Anshika Kumari,Bihar,4,Deepika Kumari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Deepika Kumari,Jharkhand,,,,,
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Gatha Khadake,Maharashtra,4,Komalika Bari,Jharkhand,6,Komalika Bari
-38th National Games Uttarakhand,Recurve Women Individual,Bronze,Komalika Bari,Jharkhand,,,,,
-38th National Games Uttarakhand,Compound Women individual,Round 1,Aditi Swami,Maharashtra,142,M Sreshta Reddy,Telangana,141,Aditi Swami
-38th National Games Uttarakhand,Compound Women individual,Round 1,Sunaina Devi,Jammu and Kashmir,140,Shruti Jadaun,Rajasthan,142,Shruti Jadaun
-38th National Games Uttarakhand,Compound Women individual,Round 1,Pragati,Delhi,146,Madhuravarshini Muruganantham,Tamil Nadu,145,Pragati
-38th National Games Uttarakhand,Compound Women individual,Round 1,Avneet Kaur,Punjab,145,Samiksha Manaktala,Delhi,143,Avneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Round 1,Supyar Choudhary,Rajasthan,144,T Chikitha,Telangana,144,
-38th National Games Uttarakhand,Compound Women individual,Round 1,Parneet Kaur,Punjab,144,Risha Rathi,Uttar Pradesh,137,Parneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Round 1,Swati Dudhwal,Rajasthan,143,Jasveer Kaur,Punjab,146,Jasveer Kaur
-38th National Games Uttarakhand,Compound Women individual,Round 1,B Manasanayana,Telangana,144,Subbiksha Krishnan,Goa,142,B Manasanayana
-38th National Games Uttarakhand,Compound Women individual,Round 1,Raginee Markoo,Madhya Pradesh,143,Madhura Dhamangaonkar,Maharashtra,146,Madhura Dhamangaonkar
-38th National Games Uttarakhand,Compound Women individual,Round 1,Kumud Saini,Delhi,145,Angel,Haryana,142,Kumud Saini
-38th National Games Uttarakhand,Compound Women individual,Round 1,Purvasha Shende,Maharashtra,144,Prithika,Maharashtra,146,Prithika
-38th National Games Uttarakhand,Compound Women individual,Round 1,Raj Kumari,Jharkhand,143,Srishti Singh,Madhya Pradesh,144,Srishti Singh
-38th National Games Uttarakhand,Compound Women individual,Round 1,Shanmukhi Budde,Andhra Pradesh,146,Deepshikha,Haryana,147,Deepshikha
-38th National Games Uttarakhand,Compound Women individual,Round 1,Raj Kaur,Punjab,142,Sakshi Chaudhary,Uttar Pradesh,142,
-38th National Games Uttarakhand,Compound Women individual,Round 1,Kshetrimayum Devi,Manipur,142,Krati Swami,Rajasthan,139,Kshetrimayum Devi
-38th National Games Uttarakhand,Compound Women individual,Round 1,Mokshada Poharkar,Delhi,140,Madala Hamsini,Andhra Pradesh,147,Madala Hamsini
-38th National Games Uttarakhand,Compound Women individual,Round 2,Aditi Swami,Maharashtra,147,Pragati,Delhi,146,Aditi Swami
-38th National Games Uttarakhand,Compound Women individual,Round 2,Avneet Kaur,Punjab,143,Supyar Choudhary,Rajasthan,141,Avneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Round 2,Parneet Kaur,Punjab,150,Jasveer Kaur,Punjab,147,Parneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Round 2,B Manasanayana,Telangana,145,Madhuravarshini Muruganantham,Tamil Nadu,149,Madhuravarshini Muruganantham
-38th National Games Uttarakhand,Compound Women individual,Round 2,Kumud Saini,Delhi,146,Prithika,Maharashtra,145,Kumud Saini
-38th National Games Uttarakhand,Compound Women individual,Round 2,Shruti Jadaun,Rajasthan,140,Srishti Singh,Madhya Pradesh,147,Srishti Singh
-38th National Games Uttarakhand,Compound Women individual,Round 2,Deepshikha,Haryana,145,Sakshi Chaudhary,Uttar Pradesh,144,Deepshikha
-38th National Games Uttarakhand,Compound Women individual,Round 2,Kshetrimayum Devi,Manipur,145,Madala Hamsini,Andhra Pradesh,149,Madala Hamsini
-38th National Games Uttarakhand,Compound Women individual,Quarter Final,Aditi Swami,Maharashtra,144,Avneet Kaur,Punjab,145,Avneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Quarter Final,Parneet Kaur,Punjab,150,Madhura Dhamangaonkar,Maharashtra,143,Parneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Quarter Final,Kumud Saini,Delhi,144,Srishti Singh,Madhya Pradesh,138,Kumud Saini
-38th National Games Uttarakhand,Compound Women individual,Quarter Final,Deepshikha,Haryana,148(1,Madala Hamsini,Andhra Pradesh,148(9,
-38th National Games Uttarakhand,Compound Women individual,Semi Final,Avneet Kaur,Punjab,142,Parneet Kaur,Punjab,144,Parneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Semi Final,Kumud Saini,Delhi,143,Deepshikha,Haryana,144,Deepshikha
-38th National Games Uttarakhand,Compound Women individual,Final,Deepshikha,Haryana,148,Parneet Kaur,Punjab,144,Deepshikha
-38th National Games Uttarakhand,Compound Women individual,Winner,Deepshikha,Haryana,,,,,
-38th National Games Uttarakhand,Compound Women individual,Round 1,Avneet Kaur,Punjab,143,Kumud Saini,Delhi,142,Avneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Round 2,Avneet Kaur,Punjab,,,,,
-38th National Games Uttarakhand,Compound Women individual,Bronze,Aditi Swami,Maharashtra,142,M Sreshta Reddy,Telangana,141,Aditi Swami
-38th National Games Uttarakhand,Compound Women individual,Bronze,Sunaina Devi,Jammu and Kashmir,140,Shruti Jadaun,Rajasthan,142,Shruti Jadaun
-38th National Games Uttarakhand,Compound Women individual,Bronze,Pragati,Delhi,146,Madhuravarshini Muruganantham,Tamil Nadu,145,Pragati
-38th National Games Uttarakhand,Compound Women individual,Bronze,Avneet Kaur,Punjab,145,Samiksha Manaktala,Delhi,143,Avneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Bronze,Supyar Choudhary,Rajasthan,144,T Chikitha,Telangana,144,
-38th National Games Uttarakhand,Compound Women individual,Bronze,Parneet Kaur,Punjab,144,Risha Rathi,Uttar Pradesh,137,Parneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Bronze,Swati Dudhwal,Rajasthan,143,Jasveer Kaur,Punjab,146,Jasveer Kaur
-38th National Games Uttarakhand,Compound Women individual,Bronze,B Manasanayana,Telangana,144,Subbiksha Krishnan,Goa,142,B Manasanayana
-38th National Games Uttarakhand,Compound Women individual,Bronze,Raginee Markoo,Madhya Pradesh,143,Madhura Dhamangaonkar,Maharashtra,146,Madhura Dhamangaonkar
-38th National Games Uttarakhand,Compound Women individual,Bronze,Kumud Saini,Delhi,145,Angel,Haryana,142,Kumud Saini
-38th National Games Uttarakhand,Compound Women individual,Bronze,Purvasha Shende,Maharashtra,144,Prithika,Maharashtra,146,Prithika
-38th National Games Uttarakhand,Compound Women individual,Bronze,Raj Kumari,Jharkhand,143,Srishti Singh,Madhya Pradesh,144,Srishti Singh
-38th National Games Uttarakhand,Compound Women individual,Bronze,Shanmukhi Budde,Andhra Pradesh,146,Deepshikha,Haryana,147,Deepshikha
-38th National Games Uttarakhand,Compound Women individual,Bronze,Raj Kaur,Punjab,142,Sakshi Chaudhary,Uttar Pradesh,142,
-38th National Games Uttarakhand,Compound Women individual,Bronze,Kshetrimayum Devi,Manipur,142,Krati Swami,Rajasthan,139,Kshetrimayum Devi
-38th National Games Uttarakhand,Compound Women individual,Bronze,Mokshada Poharkar,Delhi,140,Madala Hamsini,Andhra Pradesh,147,Madala Hamsini
-38th National Games Uttarakhand,Compound Women individual,Bronze,Aditi Swami,Maharashtra,147,Pragati,Delhi,146,Aditi Swami
-38th National Games Uttarakhand,Compound Women individual,Bronze,Avneet Kaur,Punjab,143,Supyar Choudhary,Rajasthan,141,Avneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Bronze,Parneet Kaur,Punjab,150,Jasveer Kaur,Punjab,147,Parneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Bronze,B Manasanayana,Telangana,145,Madhuravarshini Muruganantham,Tamil Nadu,149,Madhuravarshini Muruganantham
-38th National Games Uttarakhand,Compound Women individual,Bronze,Kumud Saini,Delhi,146,Prithika,Maharashtra,145,Kumud Saini
-38th National Games Uttarakhand,Compound Women individual,Bronze,Shruti Jadaun,Rajasthan,140,Srishti Singh,Madhya Pradesh,147,Srishti Singh
-38th National Games Uttarakhand,Compound Women individual,Bronze,Deepshikha,Haryana,145,Sakshi Chaudhary,Uttar Pradesh,144,Deepshikha
-38th National Games Uttarakhand,Compound Women individual,Bronze,Kshetrimayum Devi,Manipur,145,Madala Hamsini,Andhra Pradesh,149,Madala Hamsini
-38th National Games Uttarakhand,Compound Women individual,Bronze,Aditi Swami,Maharashtra,144,Avneet Kaur,Punjab,145,Avneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Bronze,Parneet Kaur,Punjab,150,Madhura Dhamangaonkar,Maharashtra,143,Parneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Bronze,Kumud Saini,Delhi,144,Srishti Singh,Madhya Pradesh,138,Kumud Saini
-38th National Games Uttarakhand,Compound Women individual,Bronze,Deepshikha,Haryana,148(1,Madala Hamsini,Andhra Pradesh,148(9,
-38th National Games Uttarakhand,Compound Women individual,Bronze,Avneet Kaur,Punjab,142,Parneet Kaur,Punjab,144,Parneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Bronze,Kumud Saini,Delhi,143,Deepshikha,Haryana,144,Deepshikha
-38th National Games Uttarakhand,Compound Women individual,Bronze,Deepshikha,Haryana,148,Parneet Kaur,Punjab,144,Deepshikha
-38th National Games Uttarakhand,Compound Women individual,Bronze,Deepshikha,Haryana,,,,,
-38th National Games Uttarakhand,Compound Women individual,Bronze,Avneet Kaur,Punjab,143,Kumud Saini,Delhi,142,Avneet Kaur
-38th National Games Uttarakhand,Compound Women individual,Bronze,Avneet Kaur,Punjab,,,,,
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Nikita,Haryana,7,Vedakshi Tomar,Uttar Pradesh,3,Nikita
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Tutumoni Boro,Assam,5,Bhawna Rani,Punjab,5,
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Chandmuni Kunkal,Jharkhand,0,Ayswarya A V,Kerala,6,Ayswarya A V
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Millennia Thokchom,Manipur,5,Archa Vinod,Kerala,5,
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Suman Gope,Jharkhand,0,Chandni Sahu,Chhattisgarh,6,Chandni Sahu
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Namrata Brahma,Assam,6,Shital Bairagi,Madhya Pradesh,0,Namrata Brahma
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Sushila Netam,Chhattisgarh,4,Rathva Amitaben,Gujarat,6,Rathva Amitaben
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Divya,Haryana,6,Rita Basumatary,Assam,2,Divya
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Pratiksha,Rajasthan,0,Manisha Kumari,Jharkhand,6,Manisha Kumari
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Moirangthem Devi,Manipur,6,Heikrujam Devi,Manipur,2,Moirangthem Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Sulochana Raj,Chhattisgarh,6,Bharti Saini,Delhi,4,Sulochana Raj
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Monika,Haryana,6,Pushpa,Uttarakhand,2,Monika
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Priya Mahali,Jharkhand,2,Pallabi Boro,Assam,6,Pallabi Boro
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Binita Boro,Uttarakhand,5,Chhavi Rana,Uttar Pradesh,5,
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Bhavana Satyagiri,Maharashtra,6,Sapna Kumari,Delhi,0,Bhavana Satyagiri
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Harshita Sahu,Chhattisgarh,0,Laiphrakpam Devi,Manipur,6,Laiphrakpam Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Round 2,Nikita,Haryana,5,Ayswarya A V,Kerala,5,
-38th National Games Uttarakhand,Indian Round Women Individual,Round 2,Archa Vinod,Kerala,4,Chandni Sahu,Chhattisgarh,6,Chandni Sahu
-38th National Games Uttarakhand,Indian Round Women Individual,Round 2,Namrata Brahma,Assam,0,Rathva Amitaben,Gujarat,6,Rathva Amitaben
-38th National Games Uttarakhand,Indian Round Women Individual,Round 2,Divya,Haryana,2,Manisha Kumari,Jharkhand,6,Manisha Kumari
-38th National Games Uttarakhand,Indian Round Women Individual,Round 2,Moirangthem Devi,Manipur,6,Sulochana Raj,Chhattisgarh,2,Moirangthem Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Round 2,Tutumoni Boro,Assam,7,Monika,Haryana,3,Tutumoni Boro
-38th National Games Uttarakhand,Indian Round Women Individual,Round 2,Pallabi Boro,Assam,7,Binita Boro,Uttarakhand,1,Pallabi Boro
-38th National Games Uttarakhand,Indian Round Women Individual,Round 2,Bhavana Satyagiri,Maharashtra,0,Laiphrakpam Devi,Manipur,6,Laiphrakpam Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Quarter Final,Nikita,Haryana,0,Chandni Sahu,Chhattisgarh,6,Chandni Sahu
-38th National Games Uttarakhand,Indian Round Women Individual,Quarter Final,Rathva Amitaben,Gujarat,0,Manisha Kumari,Jharkhand,6,Manisha Kumari
-38th National Games Uttarakhand,Indian Round Women Individual,Quarter Final,Moirangthem Devi,Manipur,1,Tutumoni Boro,Assam,7,Tutumoni Boro
-38th National Games Uttarakhand,Indian Round Women Individual,Quarter Final,Pallabi Boro,Assam,0,Laiphrakpam Devi,Manipur,6,Laiphrakpam Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Semi Final,Chandni Sahu,Chhattisgarh,6,Manisha Kumari,Jharkhand,2,Chandni Sahu
-38th National Games Uttarakhand,Indian Round Women Individual,Semi Final,Tutumoni Boro,Assam,4,Laiphrakpam Devi,Manipur,6,Laiphrakpam Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Final,Chandni Sahu,Chhattisgarh,2,Laiphrakpam Devi,Manipur,6,Laiphrakpam Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Winner,Laiphrakpam Devi,Manipur,,,,,
-38th National Games Uttarakhand,Indian Round Women Individual,Round 1,Manisha Kumari,Jharkhand,0,Tutumoni Boro,Assam,0,
-38th National Games Uttarakhand,Indian Round Women Individual,Round 2,Manisha Kumari,Jharkhand,,,,,
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Nikita,Haryana,7,Vedakshi Tomar,Uttar Pradesh,3,Nikita
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Tutumoni Boro,Assam,5,Bhawna Rani,Punjab,5,
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Chandmuni Kunkal,Jharkhand,0,Ayswarya A V,Kerala,6,Ayswarya A V
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Millennia Thokchom,Manipur,5,Archa Vinod,Kerala,5,
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Suman Gope,Jharkhand,0,Chandni Sahu,Chhattisgarh,6,Chandni Sahu
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Namrata Brahma,Assam,6,Shital Bairagi,Madhya Pradesh,0,Namrata Brahma
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Sushila Netam,Chhattisgarh,4,Rathva Amitaben,Gujarat,6,Rathva Amitaben
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Divya,Haryana,6,Rita Basumatary,Assam,2,Divya
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Pratiksha,Rajasthan,0,Manisha Kumari,Jharkhand,6,Manisha Kumari
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Moirangthem Devi,Manipur,6,Heikrujam Devi,Manipur,2,Moirangthem Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Sulochana Raj,Chhattisgarh,6,Bharti Saini,Delhi,4,Sulochana Raj
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Monika,Haryana,6,Pushpa,Uttarakhand,2,Monika
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Priya Mahali,Jharkhand,2,Pallabi Boro,Assam,6,Pallabi Boro
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Binita Boro,Uttarakhand,5,Chhavi Rana,Uttar Pradesh,5,
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Bhavana Satyagiri,Maharashtra,6,Sapna Kumari,Delhi,0,Bhavana Satyagiri
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Harshita Sahu,Chhattisgarh,0,Laiphrakpam Devi,Manipur,6,Laiphrakpam Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Nikita,Haryana,5,Ayswarya A V,Kerala,5,
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Archa Vinod,Kerala,4,Chandni Sahu,Chhattisgarh,6,Chandni Sahu
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Namrata Brahma,Assam,0,Rathva Amitaben,Gujarat,6,Rathva Amitaben
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Divya,Haryana,2,Manisha Kumari,Jharkhand,6,Manisha Kumari
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Moirangthem Devi,Manipur,6,Sulochana Raj,Chhattisgarh,2,Moirangthem Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Tutumoni Boro,Assam,7,Monika,Haryana,3,Tutumoni Boro
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Pallabi Boro,Assam,7,Binita Boro,Uttarakhand,1,Pallabi Boro
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Bhavana Satyagiri,Maharashtra,0,Laiphrakpam Devi,Manipur,6,Laiphrakpam Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Nikita,Haryana,0,Chandni Sahu,Chhattisgarh,6,Chandni Sahu
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Rathva Amitaben,Gujarat,0,Manisha Kumari,Jharkhand,6,Manisha Kumari
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Moirangthem Devi,Manipur,1,Tutumoni Boro,Assam,7,Tutumoni Boro
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Pallabi Boro,Assam,0,Laiphrakpam Devi,Manipur,6,Laiphrakpam Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Chandni Sahu,Chhattisgarh,6,Manisha Kumari,Jharkhand,2,Chandni Sahu
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Tutumoni Boro,Assam,4,Laiphrakpam Devi,Manipur,6,Laiphrakpam Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Chandni Sahu,Chhattisgarh,2,Laiphrakpam Devi,Manipur,6,Laiphrakpam Devi
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Laiphrakpam Devi,Manipur,,,,,
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Manisha Kumari,Jharkhand,0,Tutumoni Boro,Assam,0,
-38th National Games Uttarakhand,Indian Round Women Individual,Bronze,Manisha Kumari,Jharkhand,,,,,
-38th National Games Uttarakhand,Recurve Women Team,Quarter Final,Jharkhand,,6,Uttarakhand,,0,Jharkhand
-38th National Games Uttarakhand,Recurve Women Team,Quarter Final,Gujarat,,1,Haryana,,5,Haryana
-38th National Games Uttarakhand,Recurve Women Team,Quarter Final,West Bengal,,6,Assam,,2,West Bengal
-38th National Games Uttarakhand,Recurve Women Team,Quarter Final,Madhya Pradesh,,2,Maharashtra,,6,Maharashtra
-38th National Games Uttarakhand,Recurve Women Team,Semi Final,Jharkhand,,6,Haryana,,2,Jharkhand
-38th National Games Uttarakhand,Recurve Women Team,Semi Final,West Bengal,,0,Maharashtra,,6,Maharashtra
-38th National Games Uttarakhand,Recurve Women Team,Final,Jharkhand,,0,Maharashtra,,6,Maharashtra
-38th National Games Uttarakhand,Recurve Women Team,Winner,Maharashtra,,,,,,
-38th National Games Uttarakhand,Recurve Women Team,Quarter Final,Haryana,,5,West Bengal,,4,Haryana
-38th National Games Uttarakhand,Recurve Women Team,Semi Final,Haryana,,,,,,
-38th National Games Uttarakhand,Recurve Women Team,Bronze,Jharkhand,,6,Uttarakhand,,0,Jharkhand
-38th National Games Uttarakhand,Recurve Women Team,Bronze,Gujarat,,1,Haryana,,5,Haryana
-38th National Games Uttarakhand,Recurve Women Team,Bronze,West Bengal,,6,Assam,,2,West Bengal
-38th National Games Uttarakhand,Recurve Women Team,Bronze,Madhya Pradesh,,2,Maharashtra,,6,Maharashtra
-38th National Games Uttarakhand,Recurve Women Team,Bronze,Jharkhand,,6,Haryana,,2,Jharkhand
-38th National Games Uttarakhand,Recurve Women Team,Bronze,West Bengal,,0,Maharashtra,,6,Maharashtra
-38th National Games Uttarakhand,Recurve Women Team,Bronze,Jharkhand,,0,Maharashtra,,6,Maharashtra
-38th National Games Uttarakhand,Recurve Women Team,Bronze,Maharashtra,,,,,,
-38th National Games Uttarakhand,Recurve Women Team,Bronze,Haryana,,5,West Bengal,,4,Haryana
-38th National Games Uttarakhand,Recurve Women Team,Bronze,Haryana,,,,,,
-38th National Games Uttarakhand,Compound Women Team,Quarter Final,Maharashtra,,233,Uttarakhand,,214,Maharashtra
-38th National Games Uttarakhand,Compound Women Team,Quarter Final,Rajasthan,,216,Telangana,,224,Telangana
-38th National Games Uttarakhand,Compound Women Team,Quarter Final,Delhi,,233,Uttar Pradesh,,227,Delhi
-38th National Games Uttarakhand,Compound Women Team,Quarter Final,Haryana,,223,Punjab,,231,Punjab
-38th National Games Uttarakhand,Compound Women Team,Semi Final,Maharashtra,,229,Telangana,,228,Maharashtra
-38th National Games Uttarakhand,Compound Women Team,Semi Final,Delhi,,229,Punjab,,231,Punjab
-38th National Games Uttarakhand,Compound Women Team,Final,Punjab,,228,Maharashtra,,227,Punjab
-38th National Games Uttarakhand,Compound Women Team,Winner,Punjab,,,,,,
-38th National Games Uttarakhand,Compound Women Team,Quarter Final,Telangana,,232,Delhi,,229,Telangana
-38th National Games Uttarakhand,Compound Women Team,Semi Final,Telangana,,,,,,
-38th National Games Uttarakhand,Compound Women Team,Bronze,Maharashtra,,233,Uttarakhand,,214,Maharashtra
-38th National Games Uttarakhand,Compound Women Team,Bronze,Rajasthan,,216,Telangana,,224,Telangana
-38th National Games Uttarakhand,Compound Women Team,Bronze,Delhi,,233,Uttar Pradesh,,227,Delhi
-38th National Games Uttarakhand,Compound Women Team,Bronze,Haryana,,223,Punjab,,231,Punjab
-38th National Games Uttarakhand,Compound Women Team,Bronze,Maharashtra,,229,Telangana,,228,Maharashtra
-38th National Games Uttarakhand,Compound Women Team,Bronze,Delhi,,229,Punjab,,231,Punjab
-38th National Games Uttarakhand,Compound Women Team,Bronze,Punjab,,228,Maharashtra,,227,Punjab
-38th National Games Uttarakhand,Compound Women Team,Bronze,Punjab,,,,,,
-38th National Games Uttarakhand,Compound Women Team,Bronze,Telangana,,232,Delhi,,229,Telangana
-38th National Games Uttarakhand,Compound Women Team,Bronze,Telangana,,,,,,
-38th National Games Uttarakhand,Indian Round Women Team,Quarter Final,Manipur,,6,Punjab,,0,Manipur
-38th National Games Uttarakhand,Indian Round Women Team,Quarter Final,Chhattisgarh,,5,Assam,,4,Chhattisgarh
-38th National Games Uttarakhand,Indian Round Women Team,Quarter Final,Jharkhand,,2,Uttarakhand,,6,Uttarakhand
-38th National Games Uttarakhand,Indian Round Women Team,Quarter Final,Kerala,,0,Haryana,,6,Haryana
-38th National Games Uttarakhand,Indian Round Women Team,Semi Final,Manipur,,5,Chhattisgarh,,1,Manipur
-38th National Games Uttarakhand,Indian Round Women Team,Semi Final,Uttarakhand,,1,Haryana,,5,Haryana
-38th National Games Uttarakhand,Indian Round Women Team,Final,Manipur,,,Haryana,,,
-38th National Games Uttarakhand,Indian Round Women Team,Winner,Manipur,,,,,,
-38th National Games Uttarakhand,Indian Round Women Team,Quarter Final,Chhattisgarh,,0,Uttarakhand,,0,
-38th National Games Uttarakhand,Indian Round Women Team,Semi Final,Chhattisgarh,,,,,,
-38th National Games Uttarakhand,Indian Round Women Team,Bronze,Manipur,,6,Punjab,,0,Manipur
-38th National Games Uttarakhand,Indian Round Women Team,Bronze,Chhattisgarh,,5,Assam,,4,Chhattisgarh
-38th National Games Uttarakhand,Indian Round Women Team,Bronze,Jharkhand,,2,Uttarakhand,,6,Uttarakhand
-38th National Games Uttarakhand,Indian Round Women Team,Bronze,Kerala,,0,Haryana,,6,Haryana
-38th National Games Uttarakhand,Indian Round Women Team,Bronze,Manipur,,5,Chhattisgarh,,1,Manipur
-38th National Games Uttarakhand,Indian Round Women Team,Bronze,Uttarakhand,,1,Haryana,,5,Haryana
-38th National Games Uttarakhand,Indian Round Women Team,Bronze,Manipur,,,Haryana,,,
-38th National Games Uttarakhand,Indian Round Women Team,Bronze,Manipur,,,,,,
-38th National Games Uttarakhand,Indian Round Women Team,Bronze,Chhattisgarh,,0,Uttarakhand,,0,
-38th National Games Uttarakhand,Indian Round Women Team,Bronze,Chhattisgarh,,,,,,
-38th National Games Uttarakhand,Recurve Mixed Team,Quarter Final,Jharkhand,,5,Uttar Pradesh,,3,Jharkhand
-38th National Games Uttarakhand,Recurve Mixed Team,Quarter Final,Maharashtra,,5,Madhya Pradesh,,4,Maharashtra
-38th National Games Uttarakhand,Recurve Mixed Team,Quarter Final,Haryana,,6,Assam,,2,Haryana
-38th National Games Uttarakhand,Recurve Mixed Team,Quarter Final,Rajasthan,,1,West Bengal,,5,West Bengal
-38th National Games Uttarakhand,Recurve Mixed Team,Semi Final,Jharkhand,,3,Maharashtra,,5,Maharashtra
-38th National Games Uttarakhand,Recurve Mixed Team,Semi Final,Haryana,,5,West Bengal,,4(,
-38th National Games Uttarakhand,Recurve Mixed Team,Final,Maharashtra,,4(19),Haryana,,4(18),
-38th National Games Uttarakhand,Recurve Mixed Team,Winner,Maharashtra,,,,,,
-38th National Games Uttarakhand,Recurve Mixed Team,Quarter Final,Jharkhand,,5,West Bengal,,1,Jharkhand
-38th National Games Uttarakhand,Recurve Mixed Team,Semi Final,Jharkhand,,,,,,
-38th National Games Uttarakhand,Recurve Mixed Team,Bronze,Jharkhand,,5,Uttar Pradesh,,3,Jharkhand
-38th National Games Uttarakhand,Recurve Mixed Team,Bronze,Maharashtra,,5,Madhya Pradesh,,4,Maharashtra
-38th National Games Uttarakhand,Recurve Mixed Team,Bronze,Haryana,,6,Assam,,2,Haryana
-38th National Games Uttarakhand,Recurve Mixed Team,Bronze,Rajasthan,,1,West Bengal,,5,West Bengal
-38th National Games Uttarakhand,Recurve Mixed Team,Bronze,Jharkhand,,3,Maharashtra,,5,Maharashtra
-38th National Games Uttarakhand,Recurve Mixed Team,Bronze,Haryana,,5,West Bengal,,4(,
-38th National Games Uttarakhand,Recurve Mixed Team,Bronze,Maharashtra,,4(19),Haryana,,4(18),
-38th National Games Uttarakhand,Recurve Mixed Team,Bronze,Maharashtra,,,,,,
-38th National Games Uttarakhand,Recurve Mixed Team,Bronze,Jharkhand,,5,West Bengal,,1,Jharkhand
-38th National Games Uttarakhand,Recurve Mixed Team,Bronze,Jharkhand,,,,,,
-38th National Games Uttarakhand,Compound Mixed Team,Quarter Final,Delhi,,154,Haryana,,156,Haryana
-38th National Games Uttarakhand,Compound Mixed Team,Quarter Final,Madhya Pradesh,,152,Punjab,,157,Punjab
-38th National Games Uttarakhand,Compound Mixed Team,Quarter Final,Andhra Pradesh,,155,Rajasthan,,154,Andhra Pradesh
-38th National Games Uttarakhand,Compound Mixed Team,Quarter Final,Jammu and Kashmir,,153,Maharashtra,,151,Jammu and Kashmir
-38th National Games Uttarakhand,Compound Mixed Team,Semi Final,Haryana,,158,Punjab,,156,Haryana
-38th National Games Uttarakhand,Compound Mixed Team,Semi Final,Andhra Pradesh,,153,Jammu and Kashmir,,148,Andhra Pradesh
-38th National Games Uttarakhand,Compound Mixed Team,Final,Haryana,,154,Andhra Pradesh,,148,Haryana
-38th National Games Uttarakhand,Compound Mixed Team,Winner,Haryana,,,,,,
-38th National Games Uttarakhand,Compound Mixed Team,Quarter Final,Punjab,,158,Jammu and Kashmir,,156,Punjab
-38th National Games Uttarakhand,Compound Mixed Team,Semi Final,Punjab,,,,,,
-38th National Games Uttarakhand,Compound Mixed Team,Bronze,Delhi,,154,Haryana,,156,Haryana
-38th National Games Uttarakhand,Compound Mixed Team,Bronze,Madhya Pradesh,,152,Punjab,,157,Punjab
-38th National Games Uttarakhand,Compound Mixed Team,Bronze,Andhra Pradesh,,155,Rajasthan,,154,Andhra Pradesh
-38th National Games Uttarakhand,Compound Mixed Team,Bronze,Jammu and Kashmir,,153,Maharashtra,,151,Jammu and Kashmir
-38th National Games Uttarakhand,Compound Mixed Team,Bronze,Haryana,,158,Punjab,,156,Haryana
-38th National Games Uttarakhand,Compound Mixed Team,Bronze,Andhra Pradesh,,153,Jammu and Kashmir,,148,Andhra Pradesh
-38th National Games Uttarakhand,Compound Mixed Team,Bronze,Haryana,,154,Andhra Pradesh,,148,Haryana
-38th National Games Uttarakhand,Compound Mixed Team,Bronze,Haryana,,,,,,
-38th National Games Uttarakhand,Compound Mixed Team,Bronze,Punjab,,158,Jammu and Kashmir,,156,Punjab
-38th National Games Uttarakhand,Compound Mixed Team,Bronze,Punjab,,,,,,
-38th National Games Uttarakhand,Indian Round Mixed Team,Quarter Final,Haryana,,6,Delhi,,2,Haryana
-38th National Games Uttarakhand,Indian Round Mixed Team,Quarter Final,Jharkhand,,5,Uttar Pradesh,,3,Jharkhand
-38th National Games Uttarakhand,Indian Round Mixed Team,Quarter Final,Uttarakhand,,1,Maharashtra,,5,Maharashtra
-38th National Games Uttarakhand,Indian Round Mixed Team,Quarter Final,Assam,,6,Manipur,,2,Assam
-38th National Games Uttarakhand,Indian Round Mixed Team,Semi Final,Haryana,,4,Jharkhand,,4,
-38th National Games Uttarakhand,Indian Round Mixed Team,Semi Final,Maharashtra,,5,Assam,,1,Maharashtra
-38th National Games Uttarakhand,Indian Round Mixed Team,Final,Jharkhand,,2,Maharashtra,,6,Maharashtra
-38th National Games Uttarakhand,Indian Round Mixed Team,Winner,Maharashtra,,,,,,
-38th National Games Uttarakhand,Indian Round Mixed Team,Quarter Final,Haryana,,1,Assam,,7,Assam
-38th National Games Uttarakhand,Indian Round Mixed Team,Semi Final,Haryana,,,,,,
-38th National Games Uttarakhand,Indian Round Mixed Team,Bronze,Haryana,,6,Delhi,,2,Haryana
-38th National Games Uttarakhand,Indian Round Mixed Team,Bronze,Jharkhand,,5,Uttar Pradesh,,3,Jharkhand
-38th National Games Uttarakhand,Indian Round Mixed Team,Bronze,Uttarakhand,,1,Maharashtra,,5,Maharashtra
-38th National Games Uttarakhand,Indian Round Mixed Team,Bronze,Assam,,6,Manipur,,2,Assam
-38th National Games Uttarakhand,Indian Round Mixed Team,Bronze,Haryana,,4,Jharkhand,,4,
-38th National Games Uttarakhand,Indian Round Mixed Team,Bronze,Maharashtra,,5,Assam,,1,Maharashtra
-38th National Games Uttarakhand,Indian Round Mixed Team,Bronze,Jharkhand,,2,Maharashtra,,6,Maharashtra
-38th National Games Uttarakhand,Indian Round Mixed Team,Bronze,Maharashtra,,,,,,
-38th National Games Uttarakhand,Indian Round Mixed Team,Bronze,Haryana,,1,Assam,,7,Assam
-38th National Games Uttarakhand,Indian Round Mixed Team,Bronze,Haryana,,,,,,
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Services Sports Control Board
+
+Bommadevara Dhiraj",,3,"Uttarakhand
+
+Jitender Rawat",,7,"Uttarakhand
+
+Jitender Rawat"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Tamil Nadu
+
+Smaran Sarvesh L R",,6,"Haryana
+
+Basant Kumar",,5,"Tamil Nadu
+
+Smaran Sarvesh L R"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Haryana
+
+Paras Hooda",,2,"Uttarakhand
+
+Harshit Kumar",,6,"Uttarakhand
+
+Harshit Kumar"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Uttarakhand
+
+Kartik Rana",,4,"Services Sports Control Board
+
+Indra Indra",,6,"Services Sports Control Board
+
+Indra Indra"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Services Sports Control Board
+
+Rahul",,6,"Rajasthan
+
+Ajay Nagarwal",,2,"Services Sports Control Board
+
+Rahul"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Delhi
+
+Dhruv Bagga",,7,"Rajasthan
+
+Mahesh Kumawat",,1,"Delhi
+
+Dhruv Bagga"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Manipur
+
+Takhellambam Meitei",,6,"Mizoram
+
+Sachin Vedwan",,2,"Manipur
+
+Takhellambam Meitei"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Andhra Pradesh
+
+Kodandapani Jathya",,0,"Madhya Pradesh
+
+Amit Kumar",,6,"Madhya Pradesh
+
+Amit Kumar"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"West Bengal
+
+Juyel Sarkar",,6,"Chhattisgarh
+
+Gitesh Yadav",,2,"West Bengal
+
+Juyel Sarkar"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Uttar Pradesh
+
+Rohit Kumar",,6,"Assam
+
+Bishal Changmai",,5,"Uttar Pradesh
+
+Rohit Kumar"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Haryana
+
+Agastay Singh",,7,"Haryana
+
+Divyansh Chaudhary",,3,"Haryana
+
+Agastay Singh"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Assam
+
+Jayanta Talukdar",,6,"Uttar Pradesh
+
+Neeraj Chauhan",,0,"Assam
+
+Jayanta Talukdar"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Jharkhand
+
+Goldi Mishra",,6,"Jharkhand
+
+Shrey Bhardwaj",,4,"Jharkhand
+
+Goldi Mishra"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Maharashtra
+
+Shukmani Babrekar",,4,"Uttarakhand
+
+Atul Verma",,6,"Uttarakhand
+
+Atul Verma"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Services Sports Control Board
+
+Sukhchain Singh",,7,"Uttar Pradesh
+
+Aman Yadav",,3,"Services Sports Control Board
+
+Sukhchain Singh"
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Odisha
+
+Arjuna Khara",,2,"Sikkim
+
+Tarun Rai",,6,"Sikkim
+
+Tarun Rai"
+38th National Games Uttarakhand,Recurve Men Individual,Round 2,"Uttarakhand
+
+Jitender Rawat",,0,"Tamil Nadu
+
+Smaran Sarvesh L R",,6,"Tamil Nadu
+
+Smaran Sarvesh L R"
+38th National Games Uttarakhand,Recurve Men Individual,Round 2,"Uttarakhand
+
+Harshit Kumar",,0,"Services Sports Control Board
+
+Indra Indra",,6,"Services Sports Control Board
+
+Indra Indra"
+38th National Games Uttarakhand,Recurve Men Individual,Round 2,"Services Sports Control Board
+
+Rahul",,7,"Delhi
+
+Dhruv Bagga",,1,"Services Sports Control Board
+
+Rahul"
+38th National Games Uttarakhand,Recurve Men Individual,Round 2,"Manipur
+
+Takhellambam Meitei",,6,"Madhya Pradesh
+
+Amit Kumar",,5,"Manipur
+
+Takhellambam Meitei"
+38th National Games Uttarakhand,Recurve Men Individual,Round 2,"West Bengal
+
+Juyel Sarkar",,7,"Uttar Pradesh
+
+Rohit Kumar",,3,"West Bengal
+
+Juyel Sarkar"
+38th National Games Uttarakhand,Recurve Men Individual,Round 2,"Haryana
+
+Agastay Singh",,0,"Assam
+
+Jayanta Talukdar",,6,"Assam
+
+Jayanta Talukdar"
+38th National Games Uttarakhand,Recurve Men Individual,Round 2,"Jharkhand
+
+Goldi Mishra",,6,"Uttarakhand
+
+Atul Verma",,4,"Jharkhand
+
+Goldi Mishra"
+38th National Games Uttarakhand,Recurve Men Individual,Round 2,"Services Sports Control Board
+
+Sukhchain Singh",,3,"Sikkim
+
+Tarun Rai",,7,"Sikkim
+
+Tarun Rai"
+38th National Games Uttarakhand,Recurve Men Individual,Quarter Final,"Tamil Nadu
+
+Smaran Sarvesh L R",,0,"Services Sports Control Board
+
+Indra Indra",,6,"Services Sports Control Board
+
+Indra Indra"
+38th National Games Uttarakhand,Recurve Men Individual,Quarter Final,"Services Sports Control Board
+
+Rahul",,6,"Manipur
+
+Takhellambam Meitei",,0,"Services Sports Control Board
+
+Rahul"
+38th National Games Uttarakhand,Recurve Men Individual,Quarter Final,"West Bengal
+
+Juyel Sarkar",,6,"Assam
+
+Jayanta Talukdar",,2,"West Bengal
+
+Juyel Sarkar"
+38th National Games Uttarakhand,Recurve Men Individual,Quarter Final,"Jharkhand
+
+Goldi Mishra",,4,"Sikkim
+
+Tarun Rai",,6,"Sikkim
+
+Tarun Rai"
+38th National Games Uttarakhand,Recurve Men Individual,Semi Final,"Services Sports Control Board
+
+Indra Indra",,6,"Services Sports Control Board
+
+Rahul",,4,"Services Sports Control Board
+
+Indra Indra"
+38th National Games Uttarakhand,Recurve Men Individual,Semi Final,"West Bengal
+
+Juyel Sarkar",,6,"Sikkim
+
+Tarun Rai",,2,"West Bengal
+
+Juyel Sarkar"
+38th National Games Uttarakhand,Recurve Men Individual,Final,"West Bengal
+
+Juyel Sarkar",,6,"Services Sports Control Board
+
+Indra Indra",,4,"West Bengal
+
+Juyel Sarkar"
+38th National Games Uttarakhand,Recurve Men Individual,Winner,"West Bengal
+
+Juyel Sarkar",,,,,,
+38th National Games Uttarakhand,Recurve Men Individual,Round 1,"Services Sports Control Board
+
+Rahul",,2,"Sikkim
+
+Tarun Rai",,6,"Sikkim
+
+Tarun Rai"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Delhi
+
+Abhishek Verma",,149,"Uttar Pradesh
+
+Prince Rajput",,147,"Delhi
+
+Abhishek Verma"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Maharashtra
+
+Prathmesh Fuge",,147,"Rajasthan
+
+Siddharth Dudhwal",,145,"Maharashtra
+
+Prathmesh Fuge"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Maharashtra
+
+Ojas Deotale",,147,"Jharkhand
+
+Deepak Kumar",,145,"Maharashtra
+
+Ojas Deotale"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Maharashtra
+
+Sahil Jadhav",,146,"Chhattisgarh
+
+Toman Kumar",,142,"Maharashtra
+
+Sahil Jadhav"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Delhi
+
+Madhur",,147(9,"Andhra Pradesh
+
+Thirumuru Mani Ratnam",,147(1,
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Rajasthan
+
+Jasmeet Singh",,145,"Tamil Nadu
+
+Chinnaraju Srither",,139,"Rajasthan
+
+Jasmeet Singh"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Haryana
+
+Rohit Dagar",,145,"Jammu and Kashmir
+
+Hritik Sharma",,147,"Jammu and Kashmir
+
+Hritik Sharma"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Haryana
+
+Mohit Dagar",,147,"Services Sports Control Board
+
+Kunderu Venkatadri",,145,"Haryana
+
+Mohit Dagar"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Punjab
+
+Gurwinder Singh",,145,"Delhi
+
+Priyansh",,148,"Delhi
+
+Priyansh"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Haryana
+
+Kushal Dalal",,148,"Services Sports Control Board
+
+Shekher Vaidwan",,146,"Haryana
+
+Kushal Dalal"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Delhi
+
+Aman Saini",,146(1,"Maharashtra
+
+Tejbeersingh Jahagirdar",,146(9,
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Chandigarh
+
+Naveen",,140,"Madhya Pradesh
+
+Chirag Vidhyarthi",,148,"Madhya Pradesh
+
+Chirag Vidhyarthi"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Punjab
+
+Uday Kamboj",,148,"Jammu and Kashmir
+
+Amit Thakur",,142,"Punjab
+
+Uday Kamboj"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Punjab
+
+Simranjot Singh",,141,"Rajasthan
+
+Rajat Chauhan",,147,"Rajasthan
+
+Rajat Chauhan"
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Punjab
+
+Sukhmandeep Singh",,144(1,"Jammu and Kashmir
+
+Amit Thakur",,144(9,
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Services Sports Control Board
+
+Chittibomma Jignas",,143,"Haryana
+
+Rishabh Yadav",,146,"Haryana
+
+Rishabh Yadav"
+38th National Games Uttarakhand,Compound Men Individual,Round 2,"Delhi
+
+Abhishek Verma",,147,"Maharashtra
+
+Ojas Deotale",,149,"Maharashtra
+
+Ojas Deotale"
+38th National Games Uttarakhand,Compound Men Individual,Round 2,"Maharashtra
+
+Sahil Jadhav",,148,"Andhra Pradesh
+
+Thirumuru Mani Ratnam",,148,
+38th National Games Uttarakhand,Compound Men Individual,Round 2,"Rajasthan
+
+Jasmeet Singh",,148,"Jammu and Kashmir
+
+Hritik Sharma",,149,"Jammu and Kashmir
+
+Hritik Sharma"
+38th National Games Uttarakhand,Compound Men Individual,Round 2,"Haryana
+
+Mohit Dagar",,146,"Delhi
+
+Priyansh",,147,"Delhi
+
+Priyansh"
+38th National Games Uttarakhand,Compound Men Individual,Round 2,"Haryana
+
+Kushal Dalal",,149,"Delhi
+
+Aman Saini",,147,"Haryana
+
+Kushal Dalal"
+38th National Games Uttarakhand,Compound Men Individual,Round 2,"Maharashtra
+
+Prathmesh Fuge",,148,"Madhya Pradesh
+
+Chirag Vidhyarthi",,145,"Maharashtra
+
+Prathmesh Fuge"
+38th National Games Uttarakhand,Compound Men Individual,Round 2,"Punjab
+
+Uday Kamboj",,147,"Rajasthan
+
+Rajat Chauhan",,150,"Rajasthan
+
+Rajat Chauhan"
+38th National Games Uttarakhand,Compound Men Individual,Round 2,"Punjab
+
+Sukhmandeep Singh",,145,"Haryana
+
+Rishabh Yadav",,149,"Haryana
+
+Rishabh Yadav"
+38th National Games Uttarakhand,Compound Men Individual,Quarter Final,"Maharashtra
+
+Ojas Deotale",,147,"Andhra Pradesh
+
+Thirumuru Mani Ratnam",,147,
+38th National Games Uttarakhand,Compound Men Individual,Quarter Final,"Jammu and Kashmir
+
+Hritik Sharma",,148,"Delhi
+
+Priyansh",,146,"Jammu and Kashmir
+
+Hritik Sharma"
+38th National Games Uttarakhand,Compound Men Individual,Quarter Final,"Haryana
+
+Kushal Dalal",,149,"Maharashtra
+
+Prathmesh Fuge",,146,"Haryana
+
+Kushal Dalal"
+38th National Games Uttarakhand,Compound Men Individual,Quarter Final,"Rajasthan
+
+Rajat Chauhan",,149,"Haryana
+
+Rishabh Yadav",,148,"Rajasthan
+
+Rajat Chauhan"
+38th National Games Uttarakhand,Compound Men Individual,Semi Final,"Andhra Pradesh
+
+Thirumuru Mani Ratnam",,145,"Jammu and Kashmir
+
+Hritik Sharma",,248,"Jammu and Kashmir
+
+Hritik Sharma"
+38th National Games Uttarakhand,Compound Men Individual,Semi Final,"Haryana
+
+Kushal Dalal",,145,"Rajasthan
+
+Rajat Chauhan",,146,"Rajasthan
+
+Rajat Chauhan"
+38th National Games Uttarakhand,Compound Men Individual,Final,"Rajasthan
+
+Rajat Chauhan",,144,"Jammu and Kashmir
+
+Hritik Sharma",,143,"Rajasthan
+
+Rajat Chauhan"
+38th National Games Uttarakhand,Compound Men Individual,Winner,"Rajasthan
+
+Rajat Chauhan",,,,,,
+38th National Games Uttarakhand,Compound Men Individual,Round 1,"Andhra Pradesh
+
+Thirumuru Mani Ratnam",,149,"Haryana
+
+Kushal Dalal",,144,"Andhra Pradesh
+
+Thirumuru Mani Ratnam"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Uttarakhand
+
+Adarsh Panwar",,6,"Uttarakhand
+
+Pradeep",,0,"Uttarakhand
+
+Adarsh Panwar"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Rajasthan
+
+Kamal Kumar",,4,"Odisha
+
+Sraban Mandangi",,6,"Odisha
+
+Sraban Mandangi"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Manipur
+
+Chanambam Singh",,6,"Haryana
+
+Ravi",,4,"Manipur
+
+Chanambam Singh"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Bihar
+
+Jay Prakash",,2,"Andhra Pradesh
+
+Gemmeli Naidu",,6,"Andhra Pradesh
+
+Gemmeli Naidu"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Uttar Pradesh
+
+Manish Manish",,6,"Odisha
+
+Sanjaya Majhi",,2,"Uttar Pradesh
+
+Manish Manish"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Mizoram
+
+Vai Bhav",,2,"Uttar Pradesh
+
+Jaydeep Kushwaha",,6,"Uttar Pradesh
+
+Jaydeep Kushwaha"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Haryana
+
+Ashish Malik",,6,"Uttar Pradesh
+
+Abhishek",,2,"Haryana
+
+Ashish Malik"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Maharashtra
+
+Aniket Gavade",,7,"Haryana
+
+Yashu",,1,"Maharashtra
+
+Aniket Gavade"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Maharashtra
+
+Gaurav Chandane",,6,"Maharashtra
+
+Pawan Jadhav",,0,"Maharashtra
+
+Gaurav Chandane"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Maharashtra
+
+Roshan Solanke",,7,"Delhi
+
+Monu Kumar",,3,"Maharashtra
+
+Roshan Solanke"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Maharashtra
+
+Roshan Solanke",,7,"Delhi
+
+Monu Kumar",,3,"Maharashtra
+
+Roshan Solanke"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Jharkhand
+
+Madho Birua",,1,"Haryana
+
+Rahul",,7,"Haryana
+
+Rahul"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Manipur
+
+Keisham Singh",,5,"Manipur
+
+Chingakham Singh",,5,
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Andhra Pradesh
+
+Guduru Lokesh",,6,"Kerala
+
+Dasarath Rajagopal",,0,"Andhra Pradesh
+
+Guduru Lokesh"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Andhra Pradesh
+
+Akumala Sathwik",,1,"Punjab
+
+Gurmann Kamboj",,7,"Punjab
+
+Gurmann Kamboj"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Assam
+
+Arun Baro",,5,"Manipur
+
+Elangbam Meitei",,5,
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Telangana
+
+Kayam Laxman",,0,"Uttar Pradesh
+
+Subham",,6,"Uttar Pradesh
+
+Subham"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 2,"Uttarakhand
+
+Adarsh Panwar",,6,"Odisha
+
+Sraban Mandangi",,4,"Uttarakhand
+
+Adarsh Panwar"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 2,"Manipur
+
+Chanambam Singh",,6,"Andhra Pradesh
+
+Gemmeli Naidu",,4,"Manipur
+
+Chanambam Singh"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 2,"Uttar Pradesh
+
+Manish Manish",,7,"Uttar Pradesh
+
+Jaydeep Kushwaha",,3,"Uttar Pradesh
+
+Manish Manish"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 2,"Haryana
+
+Ashish Malik",,5,"Maharashtra
+
+Aniket Gavade",,5,
+38th National Games Uttarakhand,Indian Round Men Individual,Round 2,"Maharashtra
+
+Gaurav Chandane",,7,"Maharashtra
+
+Roshan Solanke",,3,"Maharashtra
+
+Gaurav Chandane"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 2,"Haryana
+
+Rahul",,2,"Manipur
+
+Chingakham Singh",,6,"Manipur
+
+Chingakham Singh"
+38th National Games Uttarakhand,Indian Round Men Individual,Round 2,"Andhra Pradesh
+
+Guduru Lokesh",,5,"Punjab
+
+Gurmann Kamboj",,5,
+38th National Games Uttarakhand,Indian Round Men Individual,Round 2,"Manipur
+
+Elangbam Meitei",,2,"Uttar Pradesh
+
+Subham",,6,"Uttar Pradesh
+
+Subham"
+38th National Games Uttarakhand,Indian Round Men Individual,Quarter Final,"Uttarakhand
+
+Adarsh Panwar",,7,"Manipur
+
+Chanambam Singh",,3,"Uttarakhand
+
+Adarsh Panwar"
+38th National Games Uttarakhand,Indian Round Men Individual,Quarter Final,"Uttar Pradesh
+
+Manish Manish",,6,"Haryana
+
+Ashish Malik",,4,"Uttar Pradesh
+
+Manish Manish"
+38th National Games Uttarakhand,Indian Round Men Individual,Quarter Final,"Maharashtra
+
+Gaurav Chandane",,3,"Manipur
+
+Chingakham Singh",,7,"Manipur
+
+Chingakham Singh"
+38th National Games Uttarakhand,Indian Round Men Individual,Quarter Final,"Punjab
+
+Gurmann Kamboj",,1,"Uttar Pradesh
+
+Subham",,7,"Uttar Pradesh
+
+Subham"
+38th National Games Uttarakhand,Indian Round Men Individual,Semi Final,"Uttarakhand
+
+Adarsh Panwar",,2,"Uttar Pradesh
+
+Manish Manish",,6,"Uttar Pradesh
+
+Manish Manish"
+38th National Games Uttarakhand,Indian Round Men Individual,Semi Final,"Manipur
+
+Chingakham Singh",,2,"Uttar Pradesh
+
+Subham",,6,"Uttar Pradesh
+
+Subham"
+38th National Games Uttarakhand,Indian Round Men Individual,Final,"Uttar Pradesh
+
+Manish Manish",,,"Uttar Pradesh
+
+Subham",,,
+38th National Games Uttarakhand,Indian Round Men Individual,Winner,"Uttar Pradesh
+
+Manish Manish",,,,,,
+38th National Games Uttarakhand,Indian Round Men Individual,Round 1,"Uttarakhand
+
+Adarsh Panwar",,0,"Manipur
+
+Chingakham Singh",,0,
+38th National Games Uttarakhand,Recurve Men Team,Quarter Final,Services Sports Control Board,Services Sports Control Board,6,Rajasthan,Rajasthan,2,Services Sports Control Board
+38th National Games Uttarakhand,Recurve Men Team,Quarter Final,Jharkhand,Jharkhand,6,Uttarakhand,Uttarakhand,0,Jharkhand
+38th National Games Uttarakhand,Recurve Men Team,Quarter Final,Uttar Pradesh,Uttar Pradesh,6,Assam,Assam,0,Uttar Pradesh
+38th National Games Uttarakhand,Recurve Men Team,Quarter Final,Delhi,Delhi,1,Haryana,Haryana,5,Haryana
+38th National Games Uttarakhand,Recurve Men Team,Semi Final,Services Sports Control Board,Services Sports Control Board,3,Jharkhand,Jharkhand,5,Jharkhand
+38th National Games Uttarakhand,Recurve Men Team,Semi Final,Uttar Pradesh,Uttar Pradesh,5,Haryana,Haryana,4,Uttar Pradesh
+38th National Games Uttarakhand,Recurve Men Team,Final,Jharkhand,Jharkhand,5,Uttar Pradesh,Uttar Pradesh,4,Jharkhand
+38th National Games Uttarakhand,Recurve Men Team,Winner,,,,,,,
+38th National Games Uttarakhand,Recurve Men Team,Quarter Final,Services Sports Control Board,Services Sports Control Board,5,Haryana,Haryana,4,Services Sports Control Board
+38th National Games Uttarakhand,Compound Men Team,Quarter Final,Haryana,Haryana,235,Uttarakhand,Uttarakhand,231,Haryana
+38th National Games Uttarakhand,Compound Men Team,Quarter Final,Punjab,Punjab,229,Rajasthan,Rajasthan,232,Rajasthan
+38th National Games Uttarakhand,Compound Men Team,Quarter Final,Maharashtra,Maharashtra,230,Jammu and Kashmir,Jammu and Kashmir,231,Jammu and Kashmir
+38th National Games Uttarakhand,Compound Men Team,Quarter Final,Services Sports Control Board,Services Sports Control Board,232,Delhi,Delhi,237,Delhi
+38th National Games Uttarakhand,Compound Men Team,Semi Final,Haryana,Haryana,232,Rajasthan,Rajasthan,227,Haryana
+38th National Games Uttarakhand,Compound Men Team,Semi Final,Jammu and Kashmir,Jammu and Kashmir,229,Delhi,Delhi,235,Delhi
+38th National Games Uttarakhand,Compound Men Team,Final,Delhi,Delhi,234,Haryana,Haryana,232,Delhi
+38th National Games Uttarakhand,Compound Men Team,Winner,,,,,,,
+38th National Games Uttarakhand,Compound Men Team,Quarter Final,Rajasthan,Rajasthan,229,Jammu and Kashmir,Jammu and Kashmir,222,Rajasthan
+38th National Games Uttarakhand,Indian Round Men Team,Quarter Final,Uttar Pradesh,Uttar Pradesh,6,Rajasthan,Rajasthan,0,Uttar Pradesh
+38th National Games Uttarakhand,Indian Round Men Team,Quarter Final,Maharashtra,Maharashtra,6,Andhra Pradesh,Andhra Pradesh,0,Maharashtra
+38th National Games Uttarakhand,Indian Round Men Team,Quarter Final,Haryana,Haryana,6,Uttarakhand,Uttarakhand,0,Haryana
+38th National Games Uttarakhand,Indian Round Men Team,Quarter Final,Odisha,Odisha,6,Manipur,Manipur,2,Odisha
+38th National Games Uttarakhand,Indian Round Men Team,Semi Final,Uttar Pradesh,Uttar Pradesh,5,Maharashtra,Maharashtra,3,Uttar Pradesh
+38th National Games Uttarakhand,Indian Round Men Team,Semi Final,Haryana,Haryana,6,Odisha,Odisha,2,Haryana
+38th National Games Uttarakhand,Indian Round Men Team,Final,Uttar Pradesh,Uttar Pradesh,,Haryana,Haryana,,
+38th National Games Uttarakhand,Indian Round Men Team,Winner,,,,,,,
+38th National Games Uttarakhand,Indian Round Men Team,Quarter Final,Maharashtra,Maharashtra,0,Odisha,Odisha,0,
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Jharkhand
+
+Deepika Kumari",,6,"West Bengal
+
+Rimil Hembram",,0,"Jharkhand
+
+Deepika Kumari"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Gujarat
+
+Maitriben Padhiyar",,2,"Delhi
+
+Gunjan Kumari",,6,"Delhi
+
+Gunjan Kumari"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Maharashtra
+
+Sharvari Shende",,4,"Andhra Pradesh
+
+Kondapavuluri Sri",,6,"Andhra Pradesh
+
+Kondapavuluri Sri"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Rajasthan
+
+Pranjal Tholiya",,2,"Punjab
+
+Simranjeet Kaur",,6,"Punjab
+
+Simranjeet Kaur"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Maharashtra
+
+Gatha Khadake",,6,"Jharkhand
+
+Tamanna Verma",,0,"Maharashtra
+
+Gatha Khadake"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"West Bengal
+
+Aditi Jaiswal",,4,"Haryana
+
+Kirti",,6,"Haryana
+
+Kirti"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Maharashtra
+
+Mukta Modgi",,7,"Assam
+
+Anisha Das",,3,"Maharashtra
+
+Mukta Modgi"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Assam
+
+Jashna Brahma",,4,"Gujarat
+
+Bhagora Bhargaviben",,6,"Gujarat
+
+Bhagora Bhargaviben"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"West Bengal
+
+Basanti Mahato",,6,"Bihar
+
+Punam Singh",,2,"West Bengal
+
+Basanti Mahato"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"West Bengal
+
+Ruma Biswas",,7,"Assam
+
+Promila Daimary",,3,"West Bengal
+
+Ruma Biswas"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Bihar
+
+Anshika Kumari",,6,"Rajasthan
+
+Harpreet Kaur",,4,"Bihar
+
+Anshika Kumari"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Punjab
+
+Veerpal Kaur",,2,"Maharashtra
+
+Vaishnavi Pawar",,6,"Maharashtra
+
+Vaishnavi Pawar"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Jharkhand
+
+Ankita Bhakat",,6,"Haryana
+
+Avani",,0,"Jharkhand
+
+Ankita Bhakat"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Chhattisgarh
+
+Diksha Nayak",,0,"Haryana
+
+Bhajan Kaur",,6,"Haryana
+
+Bhajan Kaur"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Assam
+
+Sonali Basumatary",,6,"Madhya Pradesh
+
+Jahnvi Deshmukh",,4,"Assam
+
+Sonali Basumatary"
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Madhya Pradesh
+
+Kratika Bichpuriya",,2,"Jharkhand
+
+Komalika Bari",,6,"Jharkhand
+
+Komalika Bari"
+38th National Games Uttarakhand,Recurve Women Individual,Round 2,"Jharkhand
+
+Deepika Kumari",,6,"Delhi
+
+Gunjan Kumari",,2,"Jharkhand
+
+Deepika Kumari"
+38th National Games Uttarakhand,Recurve Women Individual,Round 2,"Andhra Pradesh
+
+Kondapavuluri Sri",,0,"Punjab
+
+Simranjeet Kaur",,6,"Punjab
+
+Simranjeet Kaur"
+38th National Games Uttarakhand,Recurve Women Individual,Round 2,"Maharashtra
+
+Gatha Khadake",,7,"Haryana
+
+Kirti",,3,"Maharashtra
+
+Gatha Khadake"
+38th National Games Uttarakhand,Recurve Women Individual,Round 2,"Maharashtra
+
+Mukta Modgi",,2,"Gujarat
+
+Bhagora Bhargaviben",,6,"Gujarat
+
+Bhagora Bhargaviben"
+38th National Games Uttarakhand,Recurve Women Individual,Round 2,"West Bengal
+
+Basanti Mahato",,5,"West Bengal
+
+Ruma Biswas",,6,"West Bengal
+
+Ruma Biswas"
+38th National Games Uttarakhand,Recurve Women Individual,Round 2,"Bihar
+
+Anshika Kumari",,6,"Maharashtra
+
+Vaishnavi Pawar",,4,"Bihar
+
+Anshika Kumari"
+38th National Games Uttarakhand,Recurve Women Individual,Round 2,"Jharkhand
+
+Ankita Bhakat",,6,"Haryana
+
+Bhajan Kaur",,2,"Jharkhand
+
+Ankita Bhakat"
+38th National Games Uttarakhand,Recurve Women Individual,Round 2,"Assam
+
+Sonali Basumatary",,2,"Jharkhand
+
+Komalika Bari",,6,"Jharkhand
+
+Komalika Bari"
+38th National Games Uttarakhand,Recurve Women Individual,Quarter Final,"Jharkhand
+
+Deepika Kumari",,6,"Punjab
+
+Simranjeet Kaur",,5,"Jharkhand
+
+Deepika Kumari"
+38th National Games Uttarakhand,Recurve Women Individual,Quarter Final,"Maharashtra
+
+Gatha Khadake",,6,"Gujarat
+
+Bhagora Bhargaviben",,4,"Maharashtra
+
+Gatha Khadake"
+38th National Games Uttarakhand,Recurve Women Individual,Quarter Final,"West Bengal
+
+Ruma Biswas",,4,"Bihar
+
+Anshika Kumari",,6,"Bihar
+
+Anshika Kumari"
+38th National Games Uttarakhand,Recurve Women Individual,Quarter Final,"Jharkhand
+
+Ankita Bhakat",,5,"Jharkhand
+
+Komalika Bari",,6,"Jharkhand
+
+Komalika Bari"
+38th National Games Uttarakhand,Recurve Women Individual,Semi Final,"Jharkhand
+
+Deepika Kumari",,6,"Maharashtra
+
+Gatha Khadake",,5,"Jharkhand
+
+Deepika Kumari"
+38th National Games Uttarakhand,Recurve Women Individual,Semi Final,"Bihar
+
+Anshika Kumari",,6,"Jharkhand
+
+Komalika Bari",,4,"Bihar
+
+Anshika Kumari"
+38th National Games Uttarakhand,Recurve Women Individual,Final,"Jharkhand
+
+Deepika Kumari",,6,"Bihar
+
+Anshika Kumari",,4,"Jharkhand
+
+Deepika Kumari"
+38th National Games Uttarakhand,Recurve Women Individual,Winner,"Jharkhand
+
+Deepika Kumari",,,,,,
+38th National Games Uttarakhand,Recurve Women Individual,Round 1,"Maharashtra
+
+Gatha Khadake",,4,"Jharkhand
+
+Komalika Bari",,6,"Jharkhand
+
+Komalika Bari"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Maharashtra
+
+Aditi Swami",,142,"Telangana
+
+M Sreshta Reddy",,141,"Maharashtra
+
+Aditi Swami"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Jammu and Kashmir
+
+Sunaina Devi",,140,"Rajasthan
+
+Shruti Jadaun",,142,"Rajasthan
+
+Shruti Jadaun"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Delhi
+
+Pragati",,146,"Tamil Nadu
+
+Madhuravarshini Muruganantham",,145,"Delhi
+
+Pragati"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Punjab
+
+Avneet Kaur",,145,"Delhi
+
+Samiksha Manaktala",,143,"Punjab
+
+Avneet Kaur"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Rajasthan
+
+Supyar Choudhary",,144,"Telangana
+
+T Chikitha",,144,
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Punjab
+
+Parneet Kaur",,144,"Uttar Pradesh
+
+Risha Rathi",,137,"Punjab
+
+Parneet Kaur"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Rajasthan
+
+Swati Dudhwal",,143,"Punjab
+
+Jasveer Kaur",,146,"Punjab
+
+Jasveer Kaur"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Telangana
+
+B Manasanayana",,144,"Goa
+
+Subbiksha Krishnan",,142,"Telangana
+
+B Manasanayana"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Madhya Pradesh
+
+Raginee Markoo",,143,"Maharashtra
+
+Madhura Dhamangaonkar",,146,"Maharashtra
+
+Madhura Dhamangaonkar"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Delhi
+
+Kumud Saini",,145,"Haryana
+
+Angel",,142,"Delhi
+
+Kumud Saini"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Maharashtra
+
+Purvasha Shende",,144,"Maharashtra
+
+Prithika",,146,"Maharashtra
+
+Prithika"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Jharkhand
+
+Raj Kumari",,143,"Madhya Pradesh
+
+Srishti Singh",,144,"Madhya Pradesh
+
+Srishti Singh"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Andhra Pradesh
+
+Shanmukhi Budde",,146,"Haryana
+
+Deepshikha",,147,"Haryana
+
+Deepshikha"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Punjab
+
+Raj Kaur",,142,"Uttar Pradesh
+
+Sakshi Chaudhary",,142,
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Manipur
+
+Kshetrimayum Devi",,142,"Rajasthan
+
+Krati Swami",,139,"Manipur
+
+Kshetrimayum Devi"
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Delhi
+
+Mokshada Poharkar",,140,"Andhra Pradesh
+
+Madala Hamsini",,147,"Andhra Pradesh
+
+Madala Hamsini"
+38th National Games Uttarakhand,Compound Women individual,Round 2,"Maharashtra
+
+Aditi Swami",,147,"Delhi
+
+Pragati",,146,"Maharashtra
+
+Aditi Swami"
+38th National Games Uttarakhand,Compound Women individual,Round 2,"Punjab
+
+Avneet Kaur",,143,"Rajasthan
+
+Supyar Choudhary",,141,"Punjab
+
+Avneet Kaur"
+38th National Games Uttarakhand,Compound Women individual,Round 2,"Punjab
+
+Parneet Kaur",,150,"Punjab
+
+Jasveer Kaur",,147,"Punjab
+
+Parneet Kaur"
+38th National Games Uttarakhand,Compound Women individual,Round 2,"Telangana
+
+B Manasanayana",,145,"Tamil Nadu
+
+Madhuravarshini Muruganantham",,149,"Tamil Nadu
+
+Madhuravarshini Muruganantham"
+38th National Games Uttarakhand,Compound Women individual,Round 2,"Delhi
+
+Kumud Saini",,146,"Maharashtra
+
+Prithika",,145,"Delhi
+
+Kumud Saini"
+38th National Games Uttarakhand,Compound Women individual,Round 2,"Rajasthan
+
+Shruti Jadaun",,140,"Madhya Pradesh
+
+Srishti Singh",,147,"Madhya Pradesh
+
+Srishti Singh"
+38th National Games Uttarakhand,Compound Women individual,Round 2,"Haryana
+
+Deepshikha",,145,"Uttar Pradesh
+
+Sakshi Chaudhary",,144,"Haryana
+
+Deepshikha"
+38th National Games Uttarakhand,Compound Women individual,Round 2,"Manipur
+
+Kshetrimayum Devi",,145,"Andhra Pradesh
+
+Madala Hamsini",,149,"Andhra Pradesh
+
+Madala Hamsini"
+38th National Games Uttarakhand,Compound Women individual,Quarter Final,"Maharashtra
+
+Aditi Swami",,144,"Punjab
+
+Avneet Kaur",,145,"Punjab
+
+Avneet Kaur"
+38th National Games Uttarakhand,Compound Women individual,Quarter Final,"Punjab
+
+Parneet Kaur",,150,"Maharashtra
+
+Madhura Dhamangaonkar",,143,"Punjab
+
+Parneet Kaur"
+38th National Games Uttarakhand,Compound Women individual,Quarter Final,"Delhi
+
+Kumud Saini",,144,"Madhya Pradesh
+
+Srishti Singh",,138,"Delhi
+
+Kumud Saini"
+38th National Games Uttarakhand,Compound Women individual,Quarter Final,"Haryana
+
+Deepshikha",,148(1,"Andhra Pradesh
+
+Madala Hamsini",,148(9,
+38th National Games Uttarakhand,Compound Women individual,Semi Final,"Punjab
+
+Avneet Kaur",,142,"Punjab
+
+Parneet Kaur",,144,"Punjab
+
+Parneet Kaur"
+38th National Games Uttarakhand,Compound Women individual,Semi Final,"Delhi
+
+Kumud Saini",,143,"Haryana
+
+Deepshikha",,144,"Haryana
+
+Deepshikha"
+38th National Games Uttarakhand,Compound Women individual,Final,"Haryana
+
+Deepshikha",,148,"Punjab
+
+Parneet Kaur",,144,"Haryana
+
+Deepshikha"
+38th National Games Uttarakhand,Compound Women individual,Winner,"Haryana
+
+Deepshikha",,,,,,
+38th National Games Uttarakhand,Compound Women individual,Round 1,"Punjab
+
+Avneet Kaur",,143,"Delhi
+
+Kumud Saini",,142,"Punjab
+
+Avneet Kaur"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Haryana
+
+Nikita",,7,"Uttar Pradesh
+
+Vedakshi Tomar",,3,"Haryana
+
+Nikita"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Assam
+
+Tutumoni Boro",,5,"Punjab
+
+Bhawna Rani",,5,
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Jharkhand
+
+Chandmuni Kunkal",,0,"Kerala
+
+Ayswarya A V",,6,"Kerala
+
+Ayswarya A V"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Manipur
+
+Millennia Thokchom",,5,"Kerala
+
+Archa Vinod",,5,
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Jharkhand
+
+Suman Gope",,0,"Chhattisgarh
+
+Chandni Sahu",,6,"Chhattisgarh
+
+Chandni Sahu"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Assam
+
+Namrata Brahma",,6,"Madhya Pradesh
+
+Shital Bairagi",,0,"Assam
+
+Namrata Brahma"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Chhattisgarh
+
+Sushila Netam",,4,"Gujarat
+
+Rathva Amitaben",,6,"Gujarat
+
+Rathva Amitaben"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Haryana
+
+Divya",,6,"Assam
+
+Rita Basumatary",,2,"Haryana
+
+Divya"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Rajasthan
+
+Pratiksha",,0,"Jharkhand
+
+Manisha Kumari",,6,"Jharkhand
+
+Manisha Kumari"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Manipur
+
+Moirangthem Devi",,6,"Manipur
+
+Heikrujam Devi",,2,"Manipur
+
+Moirangthem Devi"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Chhattisgarh
+
+Sulochana Raj",,6,"Delhi
+
+Bharti Saini",,4,"Chhattisgarh
+
+Sulochana Raj"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Haryana
+
+Monika",,6,"Uttarakhand
+
+Pushpa",,2,"Haryana
+
+Monika"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Jharkhand
+
+Priya Mahali",,2,"Assam
+
+Pallabi Boro",,6,"Assam
+
+Pallabi Boro"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Uttarakhand
+
+Binita Boro",,5,"Uttar Pradesh
+
+Chhavi Rana",,5,
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Maharashtra
+
+Bhavana Satyagiri",,6,"Delhi
+
+Sapna Kumari",,0,"Maharashtra
+
+Bhavana Satyagiri"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Chhattisgarh
+
+Harshita Sahu",,0,"Manipur
+
+Laiphrakpam Devi",,6,"Manipur
+
+Laiphrakpam Devi"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 2,"Haryana
+
+Nikita",,5,"Kerala
+
+Ayswarya A V",,5,
+38th National Games Uttarakhand,Indian Round Women Individual,Round 2,"Kerala
+
+Archa Vinod",,4,"Chhattisgarh
+
+Chandni Sahu",,6,"Chhattisgarh
+
+Chandni Sahu"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 2,"Assam
+
+Namrata Brahma",,0,"Gujarat
+
+Rathva Amitaben",,6,"Gujarat
+
+Rathva Amitaben"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 2,"Haryana
+
+Divya",,2,"Jharkhand
+
+Manisha Kumari",,6,"Jharkhand
+
+Manisha Kumari"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 2,"Manipur
+
+Moirangthem Devi",,6,"Chhattisgarh
+
+Sulochana Raj",,2,"Manipur
+
+Moirangthem Devi"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 2,"Assam
+
+Tutumoni Boro",,7,"Haryana
+
+Monika",,3,"Assam
+
+Tutumoni Boro"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 2,"Assam
+
+Pallabi Boro",,7,"Uttarakhand
+
+Binita Boro",,1,"Assam
+
+Pallabi Boro"
+38th National Games Uttarakhand,Indian Round Women Individual,Round 2,"Maharashtra
+
+Bhavana Satyagiri",,0,"Manipur
+
+Laiphrakpam Devi",,6,"Manipur
+
+Laiphrakpam Devi"
+38th National Games Uttarakhand,Indian Round Women Individual,Quarter Final,"Haryana
+
+Nikita",,0,"Chhattisgarh
+
+Chandni Sahu",,6,"Chhattisgarh
+
+Chandni Sahu"
+38th National Games Uttarakhand,Indian Round Women Individual,Quarter Final,"Gujarat
+
+Rathva Amitaben",,0,"Jharkhand
+
+Manisha Kumari",,6,"Jharkhand
+
+Manisha Kumari"
+38th National Games Uttarakhand,Indian Round Women Individual,Quarter Final,"Manipur
+
+Moirangthem Devi",,1,"Assam
+
+Tutumoni Boro",,7,"Assam
+
+Tutumoni Boro"
+38th National Games Uttarakhand,Indian Round Women Individual,Quarter Final,"Assam
+
+Pallabi Boro",,0,"Manipur
+
+Laiphrakpam Devi",,6,"Manipur
+
+Laiphrakpam Devi"
+38th National Games Uttarakhand,Indian Round Women Individual,Semi Final,"Chhattisgarh
+
+Chandni Sahu",,6,"Jharkhand
+
+Manisha Kumari",,2,"Chhattisgarh
+
+Chandni Sahu"
+38th National Games Uttarakhand,Indian Round Women Individual,Semi Final,"Assam
+
+Tutumoni Boro",,4,"Manipur
+
+Laiphrakpam Devi",,6,"Manipur
+
+Laiphrakpam Devi"
+38th National Games Uttarakhand,Indian Round Women Individual,Final,"Chhattisgarh
+
+Chandni Sahu",,2,"Manipur
+
+Laiphrakpam Devi",,6,"Manipur
+
+Laiphrakpam Devi"
+38th National Games Uttarakhand,Indian Round Women Individual,Winner,"Manipur
+
+Laiphrakpam Devi",,,,,,
+38th National Games Uttarakhand,Indian Round Women Individual,Round 1,"Jharkhand
+
+Manisha Kumari",,0,"Assam
+
+Tutumoni Boro",,0,
+38th National Games Uttarakhand,Recurve Women Team,Quarter Final,Jharkhand,Jharkhand,6,Uttarakhand,Uttarakhand,0,Jharkhand
+38th National Games Uttarakhand,Recurve Women Team,Quarter Final,Gujarat,Gujarat,1,Haryana,Haryana,5,Haryana
+38th National Games Uttarakhand,Recurve Women Team,Quarter Final,West Bengal,West Bengal,6,Assam,Assam,2,West Bengal
+38th National Games Uttarakhand,Recurve Women Team,Quarter Final,Madhya Pradesh,Madhya Pradesh,2,Maharashtra,Maharashtra,6,Maharashtra
+38th National Games Uttarakhand,Recurve Women Team,Semi Final,Jharkhand,Jharkhand,6,Haryana,Haryana,2,Jharkhand
+38th National Games Uttarakhand,Recurve Women Team,Semi Final,West Bengal,West Bengal,0,Maharashtra,Maharashtra,6,Maharashtra
+38th National Games Uttarakhand,Recurve Women Team,Final,Jharkhand,Jharkhand,0,Maharashtra,Maharashtra,6,Maharashtra
+38th National Games Uttarakhand,Recurve Women Team,Winner,,,,,,,
+38th National Games Uttarakhand,Recurve Women Team,Quarter Final,Haryana,Haryana,5,West Bengal,West Bengal,4,Haryana
+38th National Games Uttarakhand,Compound Women Team,Quarter Final,JYOTHI SUREKHA VENNAM / ADITI SWAMI / BHAJAN KAUR,Maharashtra,233,Uttarakhand,Uttarakhand,214,JYOTHI SUREKHA VENNAM / ADITI SWAMI / BHAJAN KAUR
+38th National Games Uttarakhand,Compound Women Team,Quarter Final,SONALI NATH / POONAM CHAUDHARY / PRIYA GURJAR,Rajasthan,216,Telangana,Telangana,224,Telangana
+38th National Games Uttarakhand,Compound Women Team,Quarter Final,Delhi,Delhi,233,TRISHA DEY / NIKITA / PRAJAKTA,Uttar Pradesh,227,Delhi
+38th National Games Uttarakhand,Compound Women Team,Quarter Final,Haryana,Haryana,223,MUSKAN KIRAR / HARPREET KAUR / SIMRANPREET KAUR BRAR,Punjab,231,MUSKAN KIRAR / HARPREET KAUR / SIMRANPREET KAUR BRAR
+38th National Games Uttarakhand,Compound Women Team,Semi Final,JYOTHI SUREKHA VENNAM / ADITI SWAMI / BHAJAN KAUR,Maharashtra,229,Telangana,Telangana,228,JYOTHI SUREKHA VENNAM / ADITI SWAMI / BHAJAN KAUR
+38th National Games Uttarakhand,Compound Women Team,Semi Final,Delhi,Delhi,229,MUSKAN KIRAR / HARPREET KAUR / SIMRANPREET KAUR BRAR,Punjab,231,MUSKAN KIRAR / HARPREET KAUR / SIMRANPREET KAUR BRAR
+38th National Games Uttarakhand,Compound Women Team,Final,MUSKAN KIRAR / HARPREET KAUR / SIMRANPREET KAUR BRAR,Punjab,228,JYOTHI SUREKHA VENNAM / ADITI SWAMI / BHAJAN KAUR,Maharashtra,227,MUSKAN KIRAR / HARPREET KAUR / SIMRANPREET KAUR BRAR
+38th National Games Uttarakhand,Compound Women Team,Winner,,,,,,,
+38th National Games Uttarakhand,Compound Women Team,Quarter Final,Telangana,Telangana,232,Delhi,Delhi,229,Telangana
+38th National Games Uttarakhand,Indian Round Women Team,Quarter Final,Manipur,Manipur,6,Punjab,Punjab,0,Manipur
+38th National Games Uttarakhand,Indian Round Women Team,Quarter Final,Chhattisgarh,Chhattisgarh,5,Assam,Assam,4,Chhattisgarh
+38th National Games Uttarakhand,Indian Round Women Team,Quarter Final,Jharkhand,Jharkhand,2,Uttarakhand,Uttarakhand,6,Uttarakhand
+38th National Games Uttarakhand,Indian Round Women Team,Quarter Final,Kerala,Kerala,0,Haryana,Haryana,6,Haryana
+38th National Games Uttarakhand,Indian Round Women Team,Semi Final,Manipur,Manipur,5,Chhattisgarh,Chhattisgarh,1,Manipur
+38th National Games Uttarakhand,Indian Round Women Team,Semi Final,Uttarakhand,Uttarakhand,1,Haryana,Haryana,5,Haryana
+38th National Games Uttarakhand,Indian Round Women Team,Final,Manipur,Manipur,,Haryana,Haryana,,
+38th National Games Uttarakhand,Indian Round Women Team,Winner,,,,,,,
+38th National Games Uttarakhand,Indian Round Women Team,Quarter Final,Chhattisgarh,Chhattisgarh,0,Uttarakhand,Uttarakhand,0,
+38th National Games Uttarakhand,Recurve Mixed Team,Quarter Final,Jharkhand,Jharkhand,5,Uttar Pradesh,Uttar Pradesh,3,Jharkhand
+38th National Games Uttarakhand,Recurve Mixed Team,Quarter Final,Maharashtra,Maharashtra,5,Madhya Pradesh,Madhya Pradesh,4,Maharashtra
+38th National Games Uttarakhand,Recurve Mixed Team,Quarter Final,Haryana,Haryana,6,Assam,Assam,2,Haryana
+38th National Games Uttarakhand,Recurve Mixed Team,Quarter Final,Rajasthan,Rajasthan,1,West Bengal,West Bengal,5,West Bengal
+38th National Games Uttarakhand,Recurve Mixed Team,Semi Final,Jharkhand,Jharkhand,3,Maharashtra,Maharashtra,5,Maharashtra
+38th National Games Uttarakhand,Recurve Mixed Team,Semi Final,Haryana,Haryana,5,West Bengal,West Bengal,4(,
+38th National Games Uttarakhand,Recurve Mixed Team,Final,Maharashtra,Maharashtra,4(19),Haryana,Haryana,4(18),
+38th National Games Uttarakhand,Recurve Mixed Team,Winner,,,,,,,
+38th National Games Uttarakhand,Recurve Mixed Team,Quarter Final,Jharkhand,Jharkhand,5,West Bengal,West Bengal,1,Jharkhand
+38th National Games Uttarakhand,Compound Mixed Team,Quarter Final,Delhi,Delhi,154,Haryana,Haryana,156,Haryana
+38th National Games Uttarakhand,Compound Mixed Team,Quarter Final,Madhya Pradesh,Madhya Pradesh,152,Punjab,Punjab,157,Punjab
+38th National Games Uttarakhand,Compound Mixed Team,Quarter Final,Andhra Pradesh,Andhra Pradesh,155,Rajasthan,Rajasthan,154,Andhra Pradesh
+38th National Games Uttarakhand,Compound Mixed Team,Quarter Final,Jammu and Kashmir,Jammu and Kashmir,153,Maharashtra,Maharashtra,151,Jammu and Kashmir
+38th National Games Uttarakhand,Compound Mixed Team,Semi Final,Haryana,Haryana,158,Punjab,Punjab,156,Haryana
+38th National Games Uttarakhand,Compound Mixed Team,Semi Final,Andhra Pradesh,Andhra Pradesh,153,Jammu and Kashmir,Jammu and Kashmir,148,Andhra Pradesh
+38th National Games Uttarakhand,Compound Mixed Team,Final,Haryana,Haryana,154,Andhra Pradesh,Andhra Pradesh,148,Haryana
+38th National Games Uttarakhand,Compound Mixed Team,Winner,,,,,,,
+38th National Games Uttarakhand,Compound Mixed Team,Quarter Final,Punjab,Punjab,158,Jammu and Kashmir,Jammu and Kashmir,156,Punjab
+38th National Games Uttarakhand,Indian Round Mixed Team,Quarter Final,Haryana,Haryana,6,Delhi,Delhi,2,Haryana
+38th National Games Uttarakhand,Indian Round Mixed Team,Quarter Final,Jharkhand,Jharkhand,5,Uttar Pradesh,Uttar Pradesh,3,Jharkhand
+38th National Games Uttarakhand,Indian Round Mixed Team,Quarter Final,Uttarakhand,Uttarakhand,1,Maharashtra,Maharashtra,5,Maharashtra
+38th National Games Uttarakhand,Indian Round Mixed Team,Quarter Final,Assam,Assam,6,Manipur,Manipur,2,Assam
+38th National Games Uttarakhand,Indian Round Mixed Team,Semi Final,Haryana,Haryana,4,Jharkhand,Jharkhand,4,
+38th National Games Uttarakhand,Indian Round Mixed Team,Semi Final,Maharashtra,Maharashtra,5,Assam,Assam,1,Maharashtra
+38th National Games Uttarakhand,Indian Round Mixed Team,Final,Jharkhand,Jharkhand,2,Maharashtra,Maharashtra,6,Maharashtra
+38th National Games Uttarakhand,Indian Round Mixed Team,Winner,,,,,,,
+38th National Games Uttarakhand,Indian Round Mixed Team,Quarter Final,Haryana,Haryana,1,Assam,Assam,7,Assam

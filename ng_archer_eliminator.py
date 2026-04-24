@@ -35,16 +35,23 @@ Requirements
 import asyncio
 import csv
 import json
+
 import re
 import sys
 from pathlib import Path
+from urllib.parse import urlparse, urlunparse
 
+from ng_archery_leaderboards import (
+    extract_state_rosters_from_table_htmls,
+    format_roster,
+    normalize_lookup_key,
+)
 from playwright.async_api import async_playwright, TimeoutError as PWTimeout
 
 # ── Config ────────────────────────────────────────────────────────────────────
 BASE_URL = "https://37nationalgamesgoa.in/sports/archery"
-OUTPUT_CSV = "results/national_games/archery_elimination_2023.csv"
-OUTPUT_JSON = "results/national_games/archery_elimination_2023.json"
+OUTPUT_CSV = "results/national_games/archery_elimination_2023_1.csv"
+OUTPUT_JSON = "results/national_games/archery_elimination_2023_1.json"
 CHAMPIONSHIP_NAME = "37th National Games Goa"
 HEADLESS = False  # set False to watch the browser
 
@@ -76,7 +83,11 @@ async def safe_text(el) -> str:
 
 
 async def extract_elimination_data(
-    page, championship_name: str, event_name: str
+    page,
+    championship_name: str,
+    event_name: str,
+    team_rosters: dict[str, list[str]] | None = None,
+    leaderboard_rosters: dict[str, dict[str, list[str]]] | None = None,
 ) -> list[dict]:
     """
     Parse the elimination bracket from the fixture page.
@@ -125,7 +136,12 @@ async def extract_elimination_data(
 
             for tile in tiles:
                 row = await parse_match_tile(
-                    tile, championship_name, event_name, round_name
+                    tile,
+                    championship_name,
+                    event_name,
+                    round_name,
+                    team_rosters,
+                    leaderboard_rosters,
                 )
                 if row:
                     rows.append(row)
@@ -140,7 +156,14 @@ async def extract_elimination_data(
             "div.d-flex.gap-4 + div.m-5.d-flex.gap-4 div.event-tile"
         )
         for tile in bronze_tiles:
-            row = await parse_match_tile(tile, championship_name, event_name, "Bronze")
+            row = await parse_match_tile(
+                tile,
+                championship_name,
+                event_name,
+                "Bronze",
+                team_rosters,
+                leaderboard_rosters,
+            )
             if row:
                 rows.append(row)
 
@@ -153,8 +176,108 @@ def is_team_event(event_name: str) -> bool:
     return "team" in name_lower or "mixed" in name_lower
 
 
+def event_discipline(event_name: str) -> str:
+    name_lower = event_name.lower()
+    if "indian round" in name_lower:
+        return "indian round"
+    if "compound" in name_lower:
+        return "compound"
+    if "recurve" in name_lower:
+        return "recurve"
+    return ""
+
+
+def event_gender(event_name: str) -> str:
+    name_lower = event_name.lower()
+    if re.search(r"\bmixed\b", name_lower):
+        return "mixed"
+    if re.search(r"\bwomen\b|\bfemale\b", name_lower):
+        return "women"
+    if re.search(r"\bmen\b|\bmale\b", name_lower):
+        return "men"
+    return ""
+
+
+def get_state_roster(rosters: dict[str, list[str]] | None, state: str) -> list[str]:
+    if not rosters or not state:
+        return []
+
+    state_key = normalize_lookup_key(state)
+    for roster_state, names in rosters.items():
+        if normalize_lookup_key(roster_state) == state_key:
+            return names
+    return []
+
+
+def cached_roster_for_team_event(
+    event_name: str,
+    state: str,
+    leaderboard_rosters: dict[str, dict[str, list[str]]] | None,
+) -> list[str]:
+    if not leaderboard_rosters:
+        return []
+
+    discipline = event_discipline(event_name)
+    gender = event_gender(event_name)
+    target_size = 2 if gender == "mixed" else 3
+
+    if gender == "mixed":
+        mixed_roster: list[str] = []
+        for source_gender in ("men", "women"):
+            for source_event, rosters in leaderboard_rosters.items():
+                if "individual" not in source_event.lower():
+                    continue
+                if event_discipline(source_event) != discipline:
+                    continue
+                if event_gender(source_event) != source_gender:
+                    continue
+
+                names = get_state_roster(rosters, state)
+                if names:
+                    mixed_roster.append(names[0])
+                    break
+
+        return mixed_roster[:target_size]
+
+    for source_event, rosters in leaderboard_rosters.items():
+        if "individual" not in source_event.lower():
+            continue
+        if event_discipline(source_event) != discipline:
+            continue
+        if event_gender(source_event) != gender:
+            continue
+
+        names = get_state_roster(rosters, state)
+        if names:
+            return names[:target_size]
+
+    return []
+
+
+def resolve_team_player_name(
+    state: str,
+    event_name: str,
+    team_rosters: dict[str, list[str]] | None,
+    leaderboard_rosters: dict[str, dict[str, list[str]]] | None,
+) -> str:
+    names = get_state_roster(team_rosters, state)
+    if not names:
+        names = cached_roster_for_team_event(event_name, state, leaderboard_rosters)
+    return format_roster(names) if names else state
+
+
+def score_key(score: str) -> tuple[int, ...]:
+    """Compare plain scores and shoot-off values like 4(19) vs 4(18)."""
+    return tuple(int(value) for value in re.findall(r"\d+", score))
+
+
 async def parse_match_tile(
-    tile, championship_name: str, event_name: str, round_name: str
+    tile,
+    championship_name: str,
+    event_name: str,
+    round_name: str,
+    team_rosters: dict[str, list[str]] | None = None,
+    leaderboard_rosters: dict[str, dict[str, list[str]]] | None = None,
 ) -> dict | None:
     """
     Extract one match from a div.event-tile.
@@ -178,16 +301,18 @@ async def parse_match_tile(
         team_event = is_team_event(event_name)
 
         if team_event:
-            # For team/mixed events there are no athlete spans —
-            # use state/team name as the player identifier.
             state_a = (
                 (await safe_text(all_teams[0])).strip() if len(all_teams) > 0 else ""
             )
             state_b = (
                 (await safe_text(all_teams[1])).strip() if len(all_teams) > 1 else ""
             )
-            player_a = state_a  # team name IS the player for team events
-            player_b = state_b
+            player_a = resolve_team_player_name(
+                state_a, event_name, team_rosters, leaderboard_rosters
+            )
+            player_b = resolve_team_player_name(
+                state_b, event_name, team_rosters, leaderboard_rosters
+            )
         else:
             # Individual events have athlete spans
             if not all_spans:
@@ -212,15 +337,13 @@ async def parse_match_tile(
 
         # Determine winner by score comparison
         winner = ""
-        try:
-            sa = int(score_a_raw)
-            sb = int(score_b_raw)
+        if score_a_raw and score_b_raw:
+            sa = score_key(score_a_raw)
+            sb = score_key(score_b_raw)
             if sa > sb:
                 winner = player_a
             elif sb > sa:
                 winner = player_b
-        except ValueError:
-            pass
 
         if not player_a and not player_b:
             return None
@@ -230,10 +353,10 @@ async def parse_match_tile(
             "event": event_name,
             "round": round_name,
             "player_a": player_a,
-            "state_a": state_a if not team_event else "",
+            "state_a": state_a,
             "score_a": score_a_raw,
             "player_b": player_b,
-            "state_b": state_b if not team_event else "",
+            "state_b": state_b,
             "score_b": score_b_raw,
             "winner": winner,
         }
@@ -241,6 +364,25 @@ async def parse_match_tile(
     except Exception as e:
         print(f"      parse_match_tile error: {e}")
         return None
+
+
+# ── Leaderboard helpers ───────────────────────────────────────────────────────
+
+
+async def extract_leaderboard_rosters(page) -> dict[str, list[str]]:
+    tables = await page.query_selector_all("table")
+    if not tables:
+        return {}
+
+    table_htmls = []
+    for table in tables:
+        table_htmls.append(await table.evaluate("(table) => table.outerHTML"))
+
+    try:
+        return extract_state_rosters_from_table_htmls(table_htmls)
+    except Exception as exc:
+        print(f"    ⚠ Could not parse leaderboard rosters: {exc}")
+        return {}
 
 
 # ── Navigation helpers ────────────────────────────────────────────────────────
@@ -270,8 +412,6 @@ async def get_event_cards(page) -> list[dict]:
             print(f"    [{i:02d}] {event_name}")
 
     return results
-
-from urllib.parse import urlparse, urlunparse
 
 def change_to_elimination(current_url: str) -> str:
     parsed = urlparse(current_url)
@@ -328,18 +468,16 @@ async def click_view_fixtures(page, card_index: int) -> bool:
         leaderboard_url = page.url
         print(f"    ✔ Navigated → {leaderboard_url}")
 
-        # convert leaderboard -> elimination
-        elimination_url = leaderboard_url.replace("/leaderboard", "/elimination")
-
-        # navigate to elimination page
-        await page.goto(elimination_url, wait_until="networkidle")
-
-        print(f"    ✔ Switched → {elimination_url}")
-
         return True
 
     except PWTimeout:
         return False
+
+
+async def open_elimination_from_leaderboard(page) -> None:
+    elimination_url = change_to_elimination(page.url)
+    await page.goto(elimination_url, wait_until="networkidle")
+    print(f"    ✔ Switched → {elimination_url}")
 
 async def click_elimination_tab(page) -> bool:
     """
@@ -385,6 +523,7 @@ async def click_elimination_tab(page) -> bool:
 
 async def main():
     all_rows: list[dict] = []
+    leaderboard_rosters: dict[str, dict[str, list[str]]] = {}
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=HEADLESS)
@@ -430,13 +569,27 @@ async def main():
                 print(f"     Skipped (navigation failed)\n")
                 continue
 
+            team_rosters = await extract_leaderboard_rosters(page)
+            leaderboard_rosters[event_name] = team_rosters
+            if team_rosters:
+                print(f"     Cached leaderboard rosters for {len(team_rosters)} states")
+            else:
+                print("     No leaderboard rosters found for this event")
+
+            await open_elimination_from_leaderboard(page)
             await click_elimination_tab(page)
 
             html = await page.content()
             with open(f"debug_event_{card_index:02d}.html", "w", encoding="utf-8") as f:
                 f.write(html)
 
-            rows = await extract_elimination_data(page, CHAMPIONSHIP_NAME, event_name)
+            rows = await extract_elimination_data(
+                page,
+                CHAMPIONSHIP_NAME,
+                event_name,
+                team_rosters,
+                leaderboard_rosters,
+            )
             print(f"     Extracted {len(rows)} match rows\n")
             all_rows.extend(rows)
 

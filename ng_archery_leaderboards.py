@@ -1,17 +1,51 @@
 #!/usr/bin/env python3
 
+from __future__ import annotations
+
 import argparse
 import re
 import time
 from io import StringIO
 from pathlib import Path
 
-import pandas as pd
+try:
+    import pandas as pd
+except ImportError:
+    pd = None
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from playwright.sync_api import sync_playwright
 
 
 ARCHERY_URL = "https://38nguk.in/sports/archery"
+ROSTER_SEPARATOR = " / "
+
+STATE_COLUMN_TERMS = ("state", "team", "unit", "association")
+ATHLETE_COLUMN_TERMS = (
+    "name",
+    "player",
+    "athlete",
+    "archer",
+    "participant",
+    "member",
+)
+NON_ATHLETE_COLUMN_TERMS = (
+    "rank",
+    "score",
+    "total",
+    "points",
+    "10",
+    "x",
+    "position",
+    "seed",
+    "result",
+    "qualification",
+    "qualified",
+    "status",
+    "round",
+    "event",
+    "medal",
+    "remarks",
+)
 
 
 def slugify(value: str) -> str:
@@ -22,6 +56,227 @@ def slugify(value: str) -> str:
 def ensure_output_dir(path: Path) -> Path:
     path.mkdir(parents=True, exist_ok=True)
     return path
+
+
+def normalize_lookup_key(value: str) -> str:
+    key = re.sub(r"[^a-z0-9]+", " ", str(value).lower().replace("&", " and "))
+    key = re.sub(r"\band\b", " ", key)
+    return re.sub(r"\s+", " ", key).strip()
+
+
+def clean_cell(value) -> str:
+    if value is None:
+        return ""
+    if pd is not None:
+        try:
+            if pd.isna(value):
+                return ""
+        except (TypeError, ValueError):
+            pass
+    text = re.sub(r"\s+", " ", str(value)).strip()
+    return "" if text.lower() == "nan" else text
+
+
+def flatten_column_name(column) -> str:
+    if isinstance(column, tuple):
+        parts = [
+            clean_cell(part)
+            for part in column
+            if clean_cell(part) and not str(part).lower().startswith("unnamed")
+        ]
+        return " ".join(parts)
+    return clean_cell(column)
+
+
+def table_html_to_frames(table_html: str) -> list[pd.DataFrame]:
+    if pd is None:
+        raise RuntimeError(
+            "pandas is required to parse leaderboard tables. "
+            "Install the project requirements before scraping rosters."
+        )
+    try:
+        return pd.read_html(StringIO(table_html))
+    except ImportError:
+        return [table_html_to_frame_with_bs4(table_html)]
+
+
+def unique_headers(headers: list[str], width: int) -> list[str]:
+    if not headers:
+        headers = [f"column_{index + 1}" for index in range(width)]
+
+    headers = headers[:width] + [
+        f"column_{index + 1}" for index in range(len(headers), width)
+    ]
+
+    seen: dict[str, int] = {}
+    unique: list[str] = []
+    for index, header in enumerate(headers):
+        header = header or f"column_{index + 1}"
+        count = seen.get(header, 0)
+        seen[header] = count + 1
+        unique.append(header if count == 0 else f"{header}_{count + 1}")
+    return unique
+
+
+def table_html_to_frame_with_bs4(table_html: str) -> pd.DataFrame:
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(table_html, "html.parser")
+    table = soup.find("table") or soup
+    headers: list[str] = []
+    rows: list[list[str]] = []
+
+    for tr in table.find_all("tr"):
+        cells = tr.find_all(["th", "td"])
+        values = [clean_cell(cell.get_text(" ", strip=True)) for cell in cells]
+        if not values:
+            continue
+        if tr.find_all("th") and not headers:
+            headers = values
+        else:
+            rows.append(values)
+
+    width = max([len(headers), *(len(row) for row in rows)], default=0)
+    headers = unique_headers(headers, width)
+    rows = [row[:width] + [""] * (width - len(row)) for row in rows]
+
+    return pd.DataFrame(rows, columns=headers)
+
+
+def table_htmls_to_frames(table_htmls: list[str]) -> list[pd.DataFrame]:
+    frames: list[pd.DataFrame] = []
+    for table_html in table_htmls:
+        frames.extend(table_html_to_frames(table_html))
+    return frames
+
+
+def is_state_column(header: str) -> bool:
+    key = normalize_lookup_key(header)
+    return any(term in key for term in STATE_COLUMN_TERMS)
+
+
+def state_column_score(header: str) -> int:
+    key = normalize_lookup_key(header)
+    if "state" in key:
+        return 0
+    if "unit" in key or "association" in key:
+        return 1
+    if "team" in key and not any(term in key for term in ATHLETE_COLUMN_TERMS):
+        return 2
+    if "team" in key:
+        return 3
+    return 9
+
+
+def is_athlete_column(header: str) -> bool:
+    key = normalize_lookup_key(header)
+    if any(term in key for term in NON_ATHLETE_COLUMN_TERMS):
+        return False
+    return any(term in key for term in ATHLETE_COLUMN_TERMS)
+
+
+def split_names(value: str) -> list[str]:
+    text = clean_cell(value)
+    if not text:
+        return []
+    return [
+        clean_cell(part)
+        for part in re.split(r"\s*(?:/|\||;|\n|\r)\s*", text)
+        if clean_cell(part)
+    ]
+
+
+def looks_like_athlete_name(value: str, state: str) -> bool:
+    text = clean_cell(value)
+    if not text:
+        return False
+    value_key = normalize_lookup_key(text)
+    state_key = normalize_lookup_key(state)
+    if value_key == state_key:
+        return False
+    if state_key and state_key in value_key and "team" in value_key:
+        return False
+    if re.fullmatch(r"[\d\s.()+-]+", text):
+        return False
+    if value_key in {"bye", "na", "n a", "dns", "dnf", "qualified"}:
+        return False
+    return len(re.findall(r"[A-Za-z]", text)) >= 3
+
+
+def add_unique(rosters: dict[str, list[str]], state: str, names: list[str]) -> None:
+    state = clean_cell(state)
+    if not state:
+        return
+    roster = rosters.setdefault(state, [])
+    seen = {normalize_lookup_key(name) for name in roster}
+    for name in names:
+        name = clean_cell(name)
+        if name and normalize_lookup_key(name) not in seen:
+            roster.append(name)
+            seen.add(normalize_lookup_key(name))
+
+
+def extract_state_rosters_from_frames(frames: list[pd.DataFrame]) -> dict[str, list[str]]:
+    """
+    Build a state/team -> athlete-name mapping from leaderboard tables.
+
+    The 38NG site changes table headers across events, so this parser looks for a
+    state/team column plus any athlete/member/name-like columns. If explicit name
+    columns are absent, it falls back to text columns that are not ranking/score
+    metrics.
+    """
+    rosters: dict[str, list[str]] = {}
+
+    for frame in frames:
+        if frame.empty:
+            continue
+
+        df = frame.copy()
+        df.columns = [flatten_column_name(column) for column in df.columns]
+        headers = list(df.columns)
+
+        state_columns = [column for column in headers if is_state_column(column)]
+        if not state_columns:
+            continue
+
+        state_column = sorted(state_columns, key=state_column_score)[0]
+        athlete_columns = [
+            column
+            for column in headers
+            if column != state_column and is_athlete_column(column)
+        ]
+
+        if not athlete_columns:
+            athlete_columns = [
+                column
+                for column in headers
+                if column != state_column
+                and not any(
+                    term in normalize_lookup_key(column)
+                    for term in NON_ATHLETE_COLUMN_TERMS
+                )
+            ]
+
+        for _, row in df.iterrows():
+            state = clean_cell(row.get(state_column, ""))
+            names: list[str] = []
+
+            for column in athlete_columns:
+                for name in split_names(row.get(column, "")):
+                    if looks_like_athlete_name(name, state):
+                        names.append(name)
+
+            add_unique(rosters, state, names)
+
+    return {state: names for state, names in rosters.items() if names}
+
+
+def extract_state_rosters_from_table_htmls(table_htmls: list[str]) -> dict[str, list[str]]:
+    return extract_state_rosters_from_frames(table_htmls_to_frames(table_htmls))
+
+
+def format_roster(names: list[str]) -> str:
+    return ROSTER_SEPARATOR.join(names)
 
 
 def wait_for_archery_page(page) -> None:
@@ -91,7 +346,7 @@ def save_tables(page, output_dir: Path, event_number: int, event_label: str) -> 
 
     for index in range(table_count):
         html = tables.nth(index).evaluate("(table) => table.outerHTML")
-        frames = pd.read_html(StringIO(html))
+        frames = table_html_to_frames(html)
 
         if not frames:
             continue

@@ -8,12 +8,12 @@ from urllib.parse import urlparse, urlunparse
 
 from playwright.async_api import async_playwright, TimeoutError as PWTimeout
 
-BASE_URL = "https://37nationalgamesgoa.in/sports/archery"
+BASE_URL = "https://38nguk.in/sports/archery"
 
-OUTPUT_CSV = "results/national_games/archery_elimination_2023.csv"
-OUTPUT_JSON = "results/national_games/archery_elimination_2023.json"
+OUTPUT_CSV = "results/national_games/archery_elimination_2025.csv"
+OUTPUT_JSON = "results/national_games/archery_elimination_2025.json"
 
-CHAMPIONSHIP_NAME = "37th National Games Goa"
+CHAMPIONSHIP_NAME = "38th National Games Uttarakhand"
 
 HEADLESS = False
 
@@ -28,6 +28,7 @@ FIELDNAMES = [
     "state_b",
     "score_b",
     "winner",
+    "winner_state",
 ]
 
 
@@ -54,6 +55,54 @@ def change_to_elimination(url: str):
     )
 
 
+# ---------------------------------------------------------------------------
+# Static fallback rosters – used when the website leaderboard is empty.
+# Keys are normalised event name fragments (lowercase).
+# ---------------------------------------------------------------------------
+STATIC_ROSTERS: dict[str, dict[str, list[str]]] = {
+    "compound women team": {
+        "Rajasthan": ["SONALI NATH", "POONAM CHAUDHARY", "PRIYA GURJAR"],
+        "Punjab": ["MUSKAN KIRAR", "HARPREET KAUR", "SIMRANPREET KAUR BRAR"],
+        "Maharashtra": ["JYOTHI SUREKHA VENNAM", "ADITI SWAMI", "BHAJAN KAUR"],
+        "Madhya Pradesh": ["PROMILA DAIMARY", "PALLAVI DEVI", "ANKITA BHAKAT"],
+        "Uttar Pradesh": ["TRISHA DEY", "NIKITA", "PRAJAKTA"],
+        "Gujarat": ["MANVI SINGLA", "SWAPNA", "SUMATI BAINIWAL"],
+        "Andhra Pradesh": ["SUREKHA", "LAXMI", "BHAVANI"],
+        "Goa": ["RISHA SHETGAONKAR", "SHIVANI", "DIKSHA GURAV"],
+    },
+}
+
+
+def get_static_roster(event_name: str) -> dict[str, list[str]]:
+    """Return a static roster for *event_name* if one exists, else {}."""
+    norm = re.sub(r"[^a-z0-9 ]+", " ", event_name.lower()).strip()
+    for key, roster in STATIC_ROSTERS.items():
+        if key in norm:
+            return roster
+    return {}
+
+
+def get_event_category(event_name):
+    name = event_name.lower()
+    weapon = ""
+    if "compound" in name:
+        weapon = "compound"
+    elif "recurve" in name or "recureve" in name:
+        weapon = "recurve"
+    elif "indian" in name or "inidan" in name:
+        weapon = "indian round"
+
+    gender = ""
+    if "women" in name:
+        gender = "women"
+    elif "men" in name:
+        gender = "men"
+    elif "mixed" in name:
+        gender = "mixed"
+
+    return f"{weapon} {gender}".strip()
+
+
 def split_player_state(text):
 
     match = re.match(r"(.*?)\s*\((.*?)\)", text)
@@ -64,7 +113,9 @@ def split_player_state(text):
     return text.strip(), ""
 
 
-async def parse_match_tile(tile, championship_name, event_name, round_name):
+async def parse_match_tile(
+    tile, championship_name, event_name, round_name, state_to_players=None
+):
 
     try:
 
@@ -100,8 +151,25 @@ async def parse_match_tile(tile, championship_name, event_name, round_name):
                 state_a = await safe_text(teams[0])
                 state_b = await safe_text(teams[1])
 
-                player_a = state_a
-                player_b = state_b
+                # Normalize keys for lookup
+                normalized_map = {}
+                if state_to_players:
+                    normalized_map = {
+                        re.sub(r"[^a-z0-9]+", " ", k.lower()).strip(): v
+                        for k, v in state_to_players.items()
+                    }
+
+                norm_a = re.sub(r"[^a-z0-9]+", " ", state_a.lower()).strip()
+                if state_to_players and norm_a in normalized_map:
+                    player_a = " / ".join(normalized_map[norm_a])
+                else:
+                    player_a = state_a
+
+                norm_b = re.sub(r"[^a-z0-9]+", " ", state_b.lower()).strip()
+                if state_to_players and norm_b in normalized_map:
+                    player_b = " / ".join(normalized_map[norm_b])
+                else:
+                    player_b = state_b
 
         # -------------------------
         # SCORES
@@ -139,14 +207,18 @@ async def parse_match_tile(tile, championship_name, event_name, round_name):
         print("parse error:", e)
         return None
 
-async def extract_elimination_data(page, championship_name, event_name):
+
+async def extract_elimination_data(
+    page, championship_name, event_name, global_rosters=None
+):
 
     rows = []
 
     round_names = []
-    header_row = await page.query_selector("div.flex.gap-4.m-4.w-100")
+    header_row = await page.query_selector("div.d-flex.gap-4.m-5.w-100")
     if header_row:
         header_items = await header_row.query_selector_all(":scope > div")
+        print("header_items", header_items)
         for item in header_items:
             text = (await safe_text(item)).strip()
             if text:
@@ -174,8 +246,14 @@ async def extract_elimination_data(page, championship_name, event_name):
 
             for tile in tiles:
 
+                # Get the relevant state_to_players for this category
+                category = get_event_category(event_name)
+                state_to_players = (
+                    global_rosters.get(category, {}) if global_rosters else {}
+                )
+
                 row = await parse_match_tile(
-                    tile, championship_name, event_name, round_name
+                    tile, championship_name, event_name, round_name, state_to_players
                 )
 
                 if row:
@@ -196,7 +274,7 @@ async def get_event_cards(page):
 
     for i, card in enumerate(cards):
 
-        event = await safe_text(await card.query_selector("p.defaultHeading"))
+        event = await safe_text(await card.query_selector("p.sport_event_Card_para"))
 
         buttons = await card.query_selector_all("button")
 
@@ -218,7 +296,7 @@ async def get_event_cards(page):
     return results
 
 
-async def click_view_fixtures(page, card_index):
+async def click_view_fixtures(page, card_index, event_name):
 
     cards = await page.query_selector_all(".styles_cardMainContainer__rQzdE")
 
@@ -246,15 +324,46 @@ async def click_view_fixtures(page, card_index):
 
             print("    ✔ Navigated →", leaderboard_url)
 
+            # Always try to extract players from the leaderboard
+            try:
+                await page.wait_for_selector("div.row", timeout=5000)
+                await page.wait_for_timeout(1000)
+            except Exception:
+                pass
+
+            state_to_players = await page.evaluate(
+                """() => {
+                const map = {};
+                document.querySelectorAll("div.row").forEach(row => {
+                    const cols = row.querySelectorAll("div[class*='col-sm']");
+                    // Individual events: try col indices [3]=player, [4]=state
+                    // Some pages use [2]=player, [3]=state — try both layouts
+                    const layouts = [{p: 3, s: 4}, {p: 2, s: 3}];
+                    for (const {p, s} of layouts) {
+                        if (cols.length > s) {
+                            const player = cols[p].innerText.trim();
+                            const state  = cols[s].innerText.trim();
+                            if (player && state && !/^\\d+$/.test(player)) {
+                                if (!map[state]) map[state] = [];
+                                if (!map[state].includes(player)) map[state].push(player);
+                                break;
+                            }
+                        }
+                    }
+                });
+                return map;
+            }"""
+            )
+
             elimination_url = change_to_elimination(leaderboard_url)
 
             await page.goto(elimination_url, wait_until="networkidle")
 
             print("    ✔ Switched →", elimination_url)
 
-            return True
+            return True, state_to_players
 
-    return False
+    return False, {}
 
 
 async def main():
@@ -279,10 +388,12 @@ async def main():
 
         print("\nFound", len(event_cards), "events\n")
 
+        global_rosters = {}
         for item in event_cards:
 
             event_name = item["event"]
             card_index = item["card_index"]
+            category = get_event_category(event_name)
 
             print(f"── [{card_index:02d}] {event_name}")
 
@@ -292,14 +403,52 @@ async def main():
 
                 await page.goto(BASE_URL, wait_until="networkidle")
 
-            ok = await click_view_fixtures(page, card_index)
+            ok, state_to_players = await click_view_fixtures(
+                page, card_index, event_name
+            )
 
             if not ok:
                 print("     Skipped\n")
                 continue
 
+            if category not in global_rosters:
+                global_rosters[category] = {}
+
+            for state, players in state_to_players.items():
+                if state not in global_rosters[category]:
+                    global_rosters[category][state] = []
+                for p in players:
+                    if p not in global_rosters[category][state]:
+                        global_rosters[category][state].append(p)
+
+            # For team/mixed events the leaderboard page has no individual player
+            # columns, so state_to_players is always empty — that's expected.
+            # Only warn/fall back when the category roster is genuinely missing.
+            is_team = "team" in event_name.lower() or "mixed" in event_name.lower()
+            category_has_data = bool(global_rosters.get(category))
+            if is_team and not category_has_data:
+                static = get_static_roster(event_name)
+                if static:
+                    print(
+                        f"     ⚠  No live leaderboard data — using static fallback for '{event_name}'"
+                    )
+                    for state, players in static.items():
+                        if state not in global_rosters[category]:
+                            global_rosters[category][state] = []
+                        for p in players:
+                            if p not in global_rosters[category][state]:
+                                global_rosters[category][state].append(p)
+                else:
+                    print(
+                        f"     ⚠  No roster data found for '{event_name}' — state names will be used"
+                    )
+            elif is_team and category_has_data:
+                print(
+                    f"     ✔  Using {len(global_rosters[category])} states from global roster for '{event_name}'"
+                )
+
             rows = await extract_elimination_data(
-                page, CHAMPIONSHIP_NAME, event_name
+                page, CHAMPIONSHIP_NAME, event_name, global_rosters
             )
 
             print("     Extracted", len(rows), "match rows\n")
