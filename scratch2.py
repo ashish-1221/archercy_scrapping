@@ -1,6 +1,8 @@
 import asyncio
+import pandas as pd
 from playwright.async_api import async_playwright
 import re
+from io import StringIO
 
 async def main():
     async with async_playwright() as p:
@@ -33,8 +35,14 @@ async def main():
                         print("Failed to click LEADERBOARD:", e)
                     
                     print("Counting tables...")
-                    tables = await page.query_selector_all("table")
-                    print("Found", len(tables), "tables")
+                    html = await page.content()
+                    dfs = pd.read_html(StringIO(html))
+                    print(f"Found {len(dfs)} tables")
+                    if dfs:
+                        df = dfs[0]
+                        print("Columns:", df.columns.tolist())
+                        print("Head:")
+                        print(df.head())
                     
                     await browser.close()
                     return
